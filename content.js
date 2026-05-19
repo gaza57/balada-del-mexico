@@ -208,10 +208,7 @@ body: `<div class="media-slot">
 <p>Lou Reed vestido de disfraz de pájaro que se puso Paul Simon que asemejaba al de Plaza Sésamo en el programa de Saturday Nigth Live, les grita desde una puerta flotando en el espacio: Step this side to the Magical Mistery Tour.</p>
 <p>En la sala virtual principal del home page, enfocamos el siguiente cuadro, es una pintura estilizada de dos hombres alrededor de un círculo. El Joe apachurra el ratón que hace Click.</p>
 <div class="media-slot" style="flex-direction:column;padding:0;">
-  <iframe width="100%" height="280" 
-    src="https://youtube.com/embed/uKp9zCx3qRc" 
-    frameborder="0" allowfullscreen style="display:block;"></iframe>
-  <span style="font-family:'Share Tech Mono',monospace;font-size:9px;color:var(--ph-dim);padding:8px;letter-spacing:0.1em;">GADA DA VIDA · THE NEW RESIDENTS· 2000</span>`
+ <iframe width="880" height="681" src="https://www.youtube.com/embed/uKp9zCx3qRc?list=OLAK5uy_mWD8Myi8Sr29jfzU9S0aerscS62bYMPB4" title="GADA-DA-VITA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`
   },
 
   'dos-hermanos': {
