@@ -221,8 +221,8 @@ body: `<div class="media-slot">
 <p class="dialog">-NO te entendí.</p>
 <p class="dialog">-Fijate cómo lo imagino. Observa ese cuadro mitad claridad mitad indefinido, es Tijuana y México. Fíjate en los contornos. Allí se ve algo profesor Nemo...</p>
 <div class="media-slot" style="flex-direction:column;padding:0;">
-  <img src="media/img/Imagen.jpg style="width:100%;max-height:1000px;object-fit:cover;opacity:0.85;" alt="descripción">
-  <span style="font-family:'Share Tech Mono',monospace;font-size:9px;color:var(--ph-dim);padding:8px;letter-spacing:0.1em;">DF y TIJUANA  UNA SOLA</span>
+  <img src="media/img/Imagen.jpg" style="width:100%;max-height:320px;object-fit:cover;opacity:0.85;" alt="descripción">
+  <span style="font-family:'Share Tech Mono',monospace;font-size:9px;color:var(--ph-dim);padding:8px;letter-spacing:0.1em;">Réquiem</span>
 </div>`
   },
 
