@@ -399,7 +399,10 @@ body: `<div class="media-slot">
     badge: 'CAPÍTULO',
     body: `<p>*Es como un animal de rapiña, rodea a un cadáver destazado, camina sigilante, sospechosamente, no es tímido sino precavido, agacha la cabeza, husmea, no quiere ser sorprendido por aquel que cree muerto.*</p>
 <p>&quot;Pero deveras no tienes ninguna consideración, tú ya ni la amuelas, aquí me tienes esperándote desde las doce y no te apareces; chingado, aunque sea hubieras hablado por teléfono, deveras ya ni la haces... ¿Con quién andabas?&quot; (Bad company )</p>
-<p>La poesía surrealista es puro cuento, es un modelo para armar, es más artificial que el plástico, tú junta incoherencias y ya tienes un poema, uacha:</p>
+<p>La poesía surrealista es puro cuento, es un modelo para armar, es más artificial que el plástico, tú junta incoherencias y ya tienes un poema, uacha:</p><div class="media-slot">
+  <audio controls src="media/audio/atisbo.mp3" style="width:60%;max-width:320px;"></audio>
+  <span style="font-family:'Share Tech Mono',monospace;font-size:10px;color:var(--ph-dim);margin-left:12px;letter-spacing:0.08em;">improv · ATISBO · now</span>
+</div>
 <p>*&quot;**El pálido atisbo *</p>
 <p>*reaparece de nuevo, me aletarga*</p>
 <p>*abandona su estadía fantasmal para tornarse duro*</p>
