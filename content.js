@@ -209,7 +209,7 @@ body: `<div class="media-slot">
 <p>En la sala virtual principal del home page, enfocamos el siguiente cuadro, es una pintura estilizada de dos hombres alrededor de un círculo. El Joe apachurra el ratón que hace Click.</p>
 <div class="media-slot" style="flex-direction:column;padding:0;">
   <iframe width="100%" height="280" 
-    src="https://youtube/uKp9zCx3qRc" 
+    src="https://youtube.com/embed/uKp9zCx3qRc" 
     frameborder="0" allowfullscreen style="display:block;"></iframe>
   <span style="font-family:'Share Tech Mono',monospace;font-size:9px;color:var(--ph-dim);padding:8px;letter-spacing:0.1em;">GADA DA VIDA · THE NEW RESIDENTS· 2000</span>`
   },
