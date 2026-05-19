@@ -219,7 +219,10 @@ body: `<div class="media-slot">
 <p class="dialog">-No sé, las cosas realistas pierden su concresión al narrarse, la imagen creada de acuerdo a tu narración contiene las limitantes propias de los equipos, las acciones obedecen a una facilidad cinematográfica más que a un rigor sistemática, pero dime Alberto ¿De qué se trata?</p>
 <p class="dialog">-Yo creo que se trata de obtener esencias, exprimir hechos, moldearlos, agregar efectos y el olor tiene que ser característico.</p>
 <p class="dialog">-NO te entendí.</p>
-<p class="dialog">-Fijate cómo lo imagino. Observa ese cuadro mitad claridad mitad indefinido, es Tijuana y México. Fíjate en los contornos. Allí se ve algo profesor Nemo...</p>`
+<p class="dialog">-Fijate cómo lo imagino. Observa ese cuadro mitad claridad mitad indefinido, es Tijuana y México. Fíjate en los contornos. Allí se ve algo profesor Nemo...</p><div class="media-slot" style="flex-direction:column;padding:0;">
+  <img src="media/img/imagen.jpg style="width:100%;max-height:320px;object-fit:cover;opacity:0.85;" alt="descripción">
+  <span style="font-family:'Share Tech Mono',monospace;font-size:9px;color:var(--ph-dim);padding:8px;letter-spacing:0.1em;">DF y TIJUANA  UNA SOLA</span>
+</div> 
   },
 
   'tenochtitlan': {
