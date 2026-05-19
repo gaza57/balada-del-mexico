@@ -51,8 +51,8 @@ const CONTENT = {
 <p class="dialog">- ¿Qué  te parece ver tu libro convertido en muestra pictórica? dice José Luis.</p>
 <p class="dialog">- Así siempre lo imaginé, guacha. contesta el Beto mientras aprieta con el ratón una esquinita del cuadro que lleva como título &quot;Réquiem”, una imagen que parece una mancha de tinta negra sobre un papel blanco simulando el contorno de un personaje alargado con cabeza de hongo y en los brazos una guitarra también alargada.</p>
 <div class="media-slot" style="flex-direction:column;padding:0;">
-  <img src="media/img/IMG_9042.jpeg" style="width:100%;max-height:320px;object-fit:cover;opacity:0.85;" alt="descripción">
-  <span style="font-family:'Share Tech Mono',monospace;font-size:9px;color:var(--ph-dim);padding:8px;letter-spacing:0.1em;">bar en CDMX año 2000</span>
+  <img src="media/img/IMG_9053.png" style="width:100%;max-height:320px;object-fit:cover;opacity:0.85;" alt="descripción">
+  <span style="font-family:'Share Tech Mono',monospace;font-size:9px;color:var(--ph-dim);padding:8px;letter-spacing:0.1em;">Réquiem</span>
 </div>`
   },
 
@@ -106,12 +106,13 @@ body: `<div class="media-slot">
   'requiem': {
     title: 'Réquiem',
     badge: 'CAPÍTULO',
-    body: `<div class="media-slot" style="flex-direction:column;padding:0;">
-  <iframe width="100%" height="280" src="https://youtube/sjzZh6-h9fM” frameborder="0" allowfullscreen style="display:block;"></iframe>
-  <span style="font-family:'Share Tech Mono',monospace;font-size:9px;color:var(--ph-dim);padding:8px;letter-spacing:0.1em;">Star spangled banner JIMMY HENDRIX · 1969</span>
-</div>
+    body: `
 <p>El cielo estaba limpio. Todo azul. Ninguna nube merodeaba en los pedazos de horizonte visible. Aunque normalmente en un día de verano como ese, a las diez de la mañana, algunas nubecillas indecentes podrían haberse ceñido acurrucadas a los cerros;  era un día limpio. Un cielo azul. Tan azul que el sol no se sentía.</p>
 <p>La rampa bajaba fresca aún empapada de la llovizna nocturna. Aquí y allá se veían grupos pequeños de muchachos apurados por una prisa sin importancia.</p>
+<div class="media-slot" style="flex-direction:column;padding:0;">
+  <img src="media/img/IMG_9055.png" style="width:100%;max-height:320px;object-fit:cover;opacity:0.85;" alt="descripción">
+  <span style="font-family:'Share Tech Mono',monospace;font-size:9px;color:var(--ph-dim);padding:8px;letter-spacing:0.1em;">Sentados en la rampa de Agua Caliente</span>
+</div> 
 <p>Alberto observa tranquilo el leve movimiento de los altos pinos formados a lo largo de la callecita, con sus manos metidas en las bolsas del pantalón caqui. Tras un instante de duda empieza a bajar la pequeña cuesta en dirección del México que, sentado en la ancha barda de mampostería observa (o así parece), el baloncesto, en la cancha enjaulada. De espaldas El Mex no parece diferente a cualquier bato de la Poli.</p>
 <p class="dialog">-Qué pasó, ¿No tuvieron taller? Le dice palmeándole la espalda.</p>
 <p class="dialog">-Qué onda... (La voz es queda, lejana, ¿triste?), Sí, pero no entré.</p>
@@ -137,8 +138,10 @@ body: `<div class="media-slot">
 <p class="dialog">- ¿De quién?</p>
 <p class="dialog">- De un hombre, un personaje conocido en la escuela, era conserje y estaba medio tocadiscos.</p>
 <p>En cierto momento Lou &quot;El agente internauta&quot; vestido de marciano de portada de Ringo Starr, apareció:</p>
-<p class="dialog">-No tomen prisioneros, sigan adelante, porque si no demuelen ratones la conexión se corta. Alberto y el Joe se callaron la boca y escogieron otro cuadro cuya referencia a Timbuk II los dos sabían.</p>
-<div class="media-slot">[ AUDIO · STAR-SPANGLED BANNER — JIMI HENDRIX · WOODSTOCK 1969 ]</div>`
+<p class="dialog">-No tomen prisioneros, sigan adelante, porque si no demuelen ratones la conexión se corta. Alberto y el Joe se callaron la boca y escogieron otro cuadro cuya referencia a Timbuk II los dos sabían.</p> <div class="media-slot" style="flex-direction:column;padding:0;">
+  <video controls src="media/video/JIMI.mp4" style="width:100%;max-height:360px;background:#000;"></video>
+  <span style="font-family:'Share Tech Mono',monospace;font-size:9px;color:var(--ph-dim);padding:8px;letter-spacing:0.1em;">Jimmy Hendrix</span>
+</div></div>`
   },
 
   'futuro': {
