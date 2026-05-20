@@ -613,7 +613,7 @@ To the moaning and the groaning of the bells.
 <p>Abre el refrigerador, mete la cabeza y encuentra al fondo un botella de Coca Cola, saca la cabeza y mete la mano derecha, hasta el fondo empuña la Coca. La mano izquierda toma un vaso de vidrio bastante grande, del tamaño de un bote de aceite Mobil mexicano, mientras la mano derecha sirve hielo a discreción. ojos y mano en coordinación vigilan y empinan la botella de soda, transladando al recipiente el líquido sepia oscuro y burbujeante, la mano ladea delicadamente al de cristal para recibir la bebida buscando la menor formación posible de espuma. El gas juguetea alegre en el vaso levantando pequeñas &quot;chispas de sabor&quot; y colocando bolitas alrededor de los hielos. Alberto corre escaleras arriba.</p>
 <p>Bien armado con mi soda, me preparé a leer el texto. Primero cambié la música, se me hizo lógico poner la Novena que era en donde venía el escrito. Me senté en mi silla playera y zas, mientras se escuchaban las dos primeras notas sostenidas del primer movimiento creciendo en volumen e intensidad yo me sumergí en el pensamiento mexiquiano.</p>
 <div class="media-slot" style="flex-direction:column;padding:0;">
-  <iframe width="100%" height="280" src="https://www.youtube.com/embed/https://youtube.com/szmXdEgk0-s?" frameborder="0" allowfullscreen style="display:block;"></iframe>
+  <iframe width="100%" height="280" src="https://www.youtube.com/embed/https://szmXdEgk0-s?" frameborder="0" allowfullscreen style="display:block;"></iframe>
   <span style="font-family:'Share Tech Mono',monospace;font-size:9px;color:var(--ph-dim);padding:8px;letter-spacing:0.1em;">ASI FUNCIONABA EL CD ROM BEETHOVEN · 1992</span>
 </div>
 <p>## &quot;Hey güey&quot;</p>
