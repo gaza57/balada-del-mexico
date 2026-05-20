@@ -362,6 +362,10 @@ body: `<div class="media-slot">
 <div class="media-slot">
   <audio controls src="media/audio/lacruzsomething.mp3" style="width:60%;max-width:320px;"></audio>
   <span style="font-family:'Share Tech Mono',monospace;font-size:10px;color:var(--ph-dim);margin-left:12px;letter-spacing:0.08em;">improv · LA CRUZ DE TIJUANA SOMETHING FOR EVERYONE 1973 · now</span>
+</div>
+ <div class="media-slot" style="flex-direction:column;padding:0;">
+  <img src="media/img/lacruz2.JPG" style="width:100%;max-height:320px;object-fit:cover;opacity:0.85;" alt="descripción">
+  <span style="font-family:'Share Tech Mono',monospace;font-size:9px;color:var(--ph-dim);padding:8px;letter-spacing:0.1em;">LA CRUZ EN EL MIKE’S A GO GO</span>
 </div>`
   },
 
