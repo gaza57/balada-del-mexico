@@ -390,7 +390,14 @@ body: `<div class="media-slot">
     badge: 'CAPÍTULO',
     body: `<p>Un día me desperté muy temprano, acababa de amanecer, el sol era un sol de sábado de verano, el ambiente todavía se sentía fresco bajo la única cobija que me cubría, empecé a oir, o ¿Fue lo que me despertó?, un repicar contínuo y melodioso, no era la iglesia de San Miguel, no era domingo, además estas campanadas eran más claras, más cercanas, más cristalinas. Me vestí y salí a buscar el origen, camine un par de manzanas, identificando el origen llegué a su casa, él estaba sentado en los escalones de la entrada leyendo un libro, no se sorprendió de verme, levantó la mirada, mira qué chingón... me lo enseñó orgulloso. Yo nunca había leído un poema en inglés de Poe. Era muy especial, parecía que no estaba escrito con letras, estaba escrito con sonidos, el maldito Poe, había agarrado sonidos y los había puesto en una hoja. Los dos nos embelesamos oyendo el repicar de las campanas que sonaban, no dejaban de sonar, con un alegre timbre lleno de vida. Las campanas, suenan las campanas.  Mientras los niños juegan en el patio a pegarle patadas a un balón de plástico ponchado con la imagen de Tribilín. Es una mañana fresca con un cielo azul. El México se ve feliz y no puedo dejar de pensar que qué curado ¿no?, que &quot;¿Qué bueno no?&quot;.</p>
 <p class="dialog">-¿Deveras eso pasó?</p>
-<div class="media-slot">[ AUDIO · "THE BELLS" — EDGAR ALLAN POE (LECTURA) ]</div>`
+<<div class="media-slot" style="flex-direction:column;padding:0;">
+  <img src="media/img/IMG_9071.PNG" style="width:100%;max-height:220px;object-fit:cover;opacity:0.85;" alt="descripción">
+  <div style="display:flex;align-items:center;gap:12px;padding:10px;">
+    <audio controls src="media/audio/bells1.wav" style="flex:1;max-width:300px;"></audio>
+    <span style="font-family:'Share Tech Mono',monospace;font-size:9px;color:var(--ph-dim);letter-spacing:0.08em;">ARTISTA · AÑO</span>
+  </div>
+</div>
+`
   },
 
   'pipa': {
