@@ -614,7 +614,7 @@ To the moaning and the groaning of the bells.
 <p>Bien armado con mi soda, me preparé a leer el texto. Primero cambié la música, se me hizo lógico poner la Novena que era en donde venía el escrito. Me senté en mi silla playera y zas, mientras se escuchaban las dos primeras notas sostenidas del primer movimiento creciendo en volumen e intensidad yo me sumergí en el pensamiento mexiquiano.</p>
 <div class="media-slot" style="flex-direction:column;padding:0;">
   <iframe width="100%" height="300" 
-    src="https://www.youtube.com/embed/szmXdEgk0-s" 
+    src="https://www.youtube.com/szmXdEgk0-s" 
     frameborder="0" allowfullscreen style="display:block;"></iframe>
   <span style="font-family:'Share Tech Mono',monospace;font-size:9px;color:var(--ph-dim);padding:8px;letter-spacing:0.1em;">ASI FUNCIONABA EL CD ROM BEETHOVEN · 1992</span>
 </div>
