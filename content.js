@@ -776,9 +776,13 @@ Estos batos me concretizaron tanto mi vida que para qué existió Aristóteles,
 <p class="dialog">- Ya hable con el bato, si quieres ahorita vamos por las gallinas.</p>
 <p class="dialog">- Vamos pues que tengo otras cosas que hacer.</p>
 <p class="dialog">- Esperate dejame darles de comer a los pollos.</p>
+<div class="media-slot" style="flex-direction:column;padding:0;">
+  <img src="media/img/IMG_9077.PNG" style="width:100%;max-height:320px;object-fit:cover;opacity:0.85;" alt="descripción">
+  <span style="font-family:'Share Tech Mono',monospace;font-size:9px;color:var(--ph-dim);padding:8px;letter-spacing:0.1em;">UN GALLO “EL MEXICANO”VS “EL TIJUANO”</span>
+</div>
 <p>El Nava se exaspera, ve las calmas de su hermano y no haya como hacerle entender que no quiere de ninguna manera sentarse en un balde a verlo acarrear un costal , sacar puños dequien sabe que semillas y ponerlos en diversos depósitos, no quiere verlo lavar recipientes y echar una especie de avena para las gallinas, no quiere escuchar los mimos, cada uno diferente , que tiene para cada uno de los treinta y tantos animales que tiene su hermano en las jaulas.</p>
 <p>Sentados en el bar los amigos comentan el Tour de Raul, Alberto y el Nava, hasta verlos pelear su gallo &quot;El México&quot; con el de Don Pachurris, &quot;El México&quot; se comportó bravo, desde un inicio el contrario le cortó un ala y así con el ala caída, el cortó a su vez en el cogote, la lucha duró más de 15 minutos, los dos gallos sólo eran sostenidos por su soltador y por su orgullo, Raul daba respiración artificial a su gallo entre cada interrupción, a las 5 de la tarde &quot;El México&quot; hundió el pico en la arena, el juez dió el gane al gallo del Pachurris y Alberto, El Nava y en especial el Raul se retiraron tristes de la arena. El Raul había perdido, como todos, una feria pero lo más gacho, perdió a un buen gallo.</p>
-<div class="media-slot">[ IMAGEN · PALENQUE, TIJUANA, B.C. ]</div>`
+>`
   },
 
   'gooddie': {
