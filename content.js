@@ -397,7 +397,7 @@ body: `<div class="media-slot">
     <span style="font-family:'Share Tech Mono',monospace;font-size:9px;color:var(--ph-dim);letter-spacing:0.08em;">ARTISTA · AÑO</span>
   </div>
 </div>
-<div class="verse">
+<div class="verse" style="text-align:center;">
 <strong style="color:var(--ph-dim);font-family:'Share Tech Mono',monospace;font-size:11px;letter-spacing:0.15em;">THE BELLS — EDGAR ALLAN POE</strong><br><br>
 
 <strong>I.</strong><br>
