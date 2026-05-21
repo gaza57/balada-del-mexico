@@ -997,4 +997,54 @@ Estos batos me concretizaron tanto mi vida que para qué existió Aristóteles,
 <p>Camino a mi casa. Recuerdo que no le pregunté su nombre. Me gustaría que se llamara Isabel. De todas maneras el lunes pregunto.</p>
 `
 },
+'ap-danos': {
+  title: 'Daños colaterales',
+  badge: 'FRAGMENTO HIPERTEXTUAL',
+  appendix: true,
+  body: `
+<p>Soñé que Iván estaba sentado en la banqueta esperando el camión, no era un niño, tenía veintidós años, me dijo, lo siento, me obligaron. Se levantó, iba descalzo, vestía un pantalón desgarrado, su espalda desnuda llena de orificios humeantes, chorreaba sangre. En la nuca tenía un hoyo del tamaño de un limón. Subió al autobús y desapareció en la bruma.</p>
+<p>Lucio despierta sobresaltado, hace días unos hombres entraron a su departamento, lo amordazaron y subieron en un avión. Lleva una semana encerrado sufriendo torturas y escuchando preguntas para las que no tiene respuesta.</p>
+<p>Escucha descorrer el cerrojo. Alguien le propina un puntapié en las costillas. Lo levanta del suelo.</p>
+<p class="dialog">—¡Carajo, hueles a orines!</p>
+<p class="dialog">—Jefe, ya déjenme en paz, no hice nada.</p>
+<p class="dialog">—No sea marica.</p>
+<p>Caminan por el pasillo. El custodio toca la puerta.</p>
+<p class="dialog">—Comandante, aquí le traigo cliente.</p>
+<p class="dialog">—Pásenle.</p>
+<p>Cuando salimos de la Prepa entramos a Pedagogía en Mexicali, Iván no duró, porque conoció a unos camaradas y decidió estudiar economía en la UNAM. Yo me burlaba de sus ideas comunistas y él me decía, pequeño burgués, estás enajenado con gringolandia y su pinche música decadente.</p>
+<p class="dialog">—A ver, ¿en qué nos quedamos? —dice el comandante, vestido con uniforme paramilitar. Examina una carpeta llena de papeles mecanografiados. Pasa los legajos con su dedo humedecido de saliva.</p>
+<p>Lucio solo viste calzoncillos, de un empujón el guardia lo sienta en una silla frente al escritorio.</p>
+<p class="dialog">—¿Ya te acordaste de los nombres?</p>
+<p class="dialog">—¿Cuáles, jefe?</p>
+<p class="dialog">—Los de tu célula, cabrón. A ti te mandaron a Tijuana a reclutar.</p>
+<p class="dialog">—No. Yo no hago eso. Yo allá vivo.</p>
+<p class="dialog">—No te hagas, desgraciado. ¿Te crees muy machito? Cabo, dígale a este pendejo quién sí es macho de verdad.</p>
+<p class="dialog">—Usted, comandante.</p>
+<p class="dialog">—¿Dígale quién le va a partir toda la madre si no me da nombres?</p>
+<p class="dialog">—Usted, comandante.</p>
+<p class="dialog">—Ya ves, pinche comunista. Suelta la lengua.</p>
+<p>Iván pertenecía a la Liga 23 de septiembre. Cuando fui a visitarlo al DF platicamos de eso. Me invitó a participar. <em>No podemos quedarnos de brazos cruzados, Lucio, el gobierno está podrido, los poderes económicos explotan al pueblo. Están matando obreros, estudiantes, campesinos...</em> Pues sí, pero hay vías democráticas, le dije, la cuestión es ganar espacios. <em>No hay tiempo, la lucha es ahora, únete, es un movimiento del pueblo, la dictadura del proletariado, camarada, es la única posibilidad.</em></p>
+<p>Me dio un impreso. <em>Léelo y luego hablamos.</em> Nos dimos un abrazo. Me regresé a Tijuana.</p>
+<p class="dialog">—Aquí dice que te encontraron un álbum con recortes de Tlatelolco y unos ejemplares de Madera. ¿No son tuyos?</p>
+<p class="dialog">—Son recortes de la secundaria, jefe. Puro hobby, tengo otros del viaje a la luna y del mundial de fut.</p>
+<p class="dialog">—¿Y los periódicos clandestinos? ¿También son hobby? ¿Me quieres ver la cara? Tú eres de esos terroristas irresponsables que atentan contra la patria.</p>
+<p class="dialog">—No jefe, esos me los mandó un amigo, yo no se los pedí. Ni los leo.</p>
+<p class="dialog">—¿Raúl, tu contacto? ¿El de esta foto? Aquí están los dos, güey, no me mientas.</p>
+<p class="dialog">—Somos amigos. Esa foto es cuando estábamos en la prepa. No se llama Raúl se llama Iván. Yo creo que se equivocaron, jefe.</p>
+<p class="dialog">—Yo nunca me equivoco muchachito. A ver Cabo, arremánguele un chingazo a este, para que haga memoria.</p>
+<p>El soldado se acerca empuñando una manopla y le da un golpe salvaje en el mentón. La sangre salpica la mesa.</p>
+<p class="dialog">—Raúl, Iván, o como se llame, te mandaba material subversivo, ustedes andan invadiendo propiedad privada. ¿En qué operativos has participado? Dame fechas, nombres.</p>
+<p>El muchacho no puede hablar, se atraganta, la sangre le brota a borbotones por la boca. Le rompieron la quijada.</p>
+<p class="dialog">—Ahora resulta que me saliste machito, ¿eres de los que no hablan? Porque ya valiste, tu amigo ya cantó.</p>
+<p class="dialog">—Mi comandante, —dice el cabo mientras examina con burla al prisionero desmadejado en la silla— a lo mejor el muchacho dice la verdad y ni sabe nada.</p>
+<p class="dialog">—No sabe, mis huevos.</p>
+<p>Lucio cae al piso desmayado.</p>
+<p class="dialog">—Serán peras o manzanas, este pendejo no da para más. Te lo chingaste feo, se te pasó la mano, idiota, le rompiste toda la jeta, así no me sirve.</p>
+<p class="dialog">—Perdón.</p>
+<p class="dialog">—Ya qué. Mira. Sácalo pa afuera, dale unos culatazos en la cara para que no esté tan reconocible, córtalo en pedazos y aviéntalo en una banqueta. Que la gente vea que somos eficientes extirpando de raíz estos anarquistas comunistoides de mierda.</p>
+<p class="dialog">—Sí mi comandante.</p>
+<p class="dialog">—Haces un reporte que conste que era sospechoso de participar en el secuestro del banquero ese de Guadalajara y que fue liberado por falta de pruebas. Que quede todo muy bien documentado.</p>
+<p class="dialog">—Sí mi comandante —el soldado se cuadra en saludo militar— y, usted disculpe, se me pasó la mano, es que ando estrenando manopla.</p>
+`
+},
 };
