@@ -113,7 +113,101 @@ body{background:var(--bg);color:var(--text);font-family:'Libre Baskerville',Geor
   <span class="sb">SALA: <span id="sb-room">GALERÍA PRINCIPAL</span></span>
   <span class="sb r" id="sb-clock">00:00:00</span>
 </div>
+<!-- ══════════════════════════════════════
+     WELCOME SCREEN
+══════════════════════════════════════ -->
+<div id="screen-welcome" style="
+  position:fixed; inset:0;
+  display:flex; flex-direction:column;
+  align-items:center; justify-content:center;
+  z-index:2000;
+  background: linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.75)),
+              url('media/img/portada.jpg') center/cover no-repeat;
+  padding: 24px;
+">
 
+  <div style="
+    max-width: 620px; width:100%;
+    background: rgba(1,5,1,0.82);
+    border: 1px solid rgba(180,140,80,0.3);
+    padding: 44px 48px 40px;
+    position: relative;
+  ">
+
+    <!-- Esquinas decorativas -->
+    <div style="position:absolute;top:8px;left:8px;width:18px;height:18px;border-top:1px solid rgba(180,140,80,0.5);border-left:1px solid rgba(180,140,80,0.5);"></div>
+    <div style="position:absolute;top:8px;right:8px;width:18px;height:18px;border-top:1px solid rgba(180,140,80,0.5);border-right:1px solid rgba(180,140,80,0.5);"></div>
+    <div style="position:absolute;bottom:8px;left:8px;width:18px;height:18px;border-bottom:1px solid rgba(180,140,80,0.5);border-left:1px solid rgba(180,140,80,0.5);"></div>
+    <div style="position:absolute;bottom:8px;right:8px;width:18px;height:18px;border-bottom:1px solid rgba(180,140,80,0.5);border-right:1px solid rgba(180,140,80,0.5);"></div>
+
+    <!-- Título -->
+    <div style="
+      font-family:'VT323',monospace;
+      font-size: clamp(36px,7vw,64px);
+      color: #d4a84b;
+      text-shadow: 0 0 20px rgba(212,168,75,0.3);
+      letter-spacing: 0.06em;
+      text-align:center;
+      line-height:1.05;
+      margin-bottom: 6px;
+    ">La Balada<br>del México</div>
+
+    <div style="
+      font-family:'Share Tech Mono',monospace;
+      font-size:10px; letter-spacing:0.2em;
+      color:rgba(212,168,75,0.5);
+      text-align:center; margin-bottom:36px;
+      text-transform:uppercase;
+    ">Fragmentos conceptuales · 1996 · Alberto García Zepeda</div>
+
+    <!-- Carta -->
+    <div style="
+      font-family:'Libre Baskerville',Georgia,serif;
+      font-size:15px; line-height:1.85;
+      color: #c8d8c0;
+      margin-bottom:32px;
+      text-align:justify;
+      hyphens:auto;
+    ">
+      <p style="margin-bottom:1.2em;">Estimado lector:</p>
+
+      <p style="margin-bottom:1.2em;">La Balada del México es un conjunto de recuerdos, anécdotas, sueños e imágenes que cobran vida: sucesos probables e improbables, relatos ficticios, inventados o modificados por el tiempo y la memoria. Una recolección de fotografías escritas que pretenden atrapar un pasado, una época, un amigo que ya no está más que en los recuerdos.</p>
+
+      <p style="margin-bottom:1.2em;">Lo escribí en Tijuana en 1996 con la intención de publicarlo en formato de hipertexto — una idea que entonces era casi imposible de concretar. La tecnología no estaba lista, o yo no estaba listo para ella. El texto quedó guardado, esperando.</p>
+
+      <p style="margin-bottom:1.2em;">Casi treinta años después, aquí está. Puedes leerlo en orden, como un libro convencional, usando las flechas de navegación. O puedes entrar a la galería y dejarte llevar — saltar de sala en sala sin itinerario, como se recuerda: sin orden, sin permiso, sin aviso.</p>
+
+      <p style="margin-bottom:0;">Las palabras subrayadas en verde son puertas. Ábrelas.</p>
+    </div>
+
+    <!-- Firma -->
+    <div style="
+      font-family:'Libre Baskerville',Georgia,serif;
+      font-size:14px; font-style:italic;
+      color:rgba(212,168,75,0.7);
+      text-align:right; margin-bottom:32px;
+    ">— Alberto</div>
+
+    <!-- Botón entrar -->
+    <div style="text-align:center;">
+      <button onclick="enterGallery()" style="
+        font-family:'Share Tech Mono',monospace;
+        font-size:13px; letter-spacing:0.2em;
+        color: #d4a84b;
+        border: 1px solid rgba(212,168,75,0.5);
+        padding: 10px 40px;
+        background: none; cursor:pointer;
+        text-transform:uppercase;
+        transition: all 0.2s;
+      "
+      onmouseover="this.style.background='rgba(212,168,75,0.08)';this.style.borderColor='#d4a84b';"
+      onmouseout="this.style.background='none';this.style.borderColor='rgba(212,168,75,0.5)';"
+      >[ ENTRAR ]</button>
+    </div>
+
+  </div>
+
+</div>
 <div id="screen-map">
   <div class="map-title">LA BALADA DEL MÉXICO<span class="cursor"></span></div>
   <div class="map-sub">Cuadros en una exhibición · Fragmentos conceptuales · AGZ · 1996</div>
@@ -196,7 +290,12 @@ const ORDER=['marco','midifile','requiem','futuro','dos-hermanos','tenochtitlan'
   'diario','paseo','escenas','pitbull','heygüey','gallero','gooddie','watson'];
 
 let current=null;
-
+function enterGallery() {
+  const welcome = document.getElementById('screen-welcome');
+  welcome.style.transition = 'opacity 0.6s';
+  welcome.style.opacity = '0';
+  setTimeout(() => { welcome.style.display = 'none'; }, 600);
+}
 function buildMap(){
   const galaxy=document.getElementById('galaxy');
   const svg=document.getElementById('galaxy-svg');
