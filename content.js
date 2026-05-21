@@ -256,7 +256,7 @@ body: `<div class="media-slot">
   <iframe width="100%" height="360" 
     src="https://www.youtube.com/embed/jAQno8li1ks" 
     frameborder="0" allowfullscreen style="display:block;"></iframe>
-  <span style="font-family:'Share Tech Mono',monospace;font-size:9px;color:var(--ph-dim);padding:8px;letter-spacing:0.1em;">OBRA DE TEATRO · TENOCHTITLÁN</span>'
+  <span style="font-family:'Share Tech Mono',monospace;font-size:9px;color:var(--ph-dim);padding:8px;letter-spacing:0.1em;">OBRA DE TEATRO · TENOCHTITLÁN</span>
   </div>`
   },
 	-loco': {
