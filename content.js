@@ -256,10 +256,10 @@ body: `<div class="media-slot">
   <iframe width="100%" height="360" 
     src="https://www.youtube.com/embed/jAQno8li1ks" 
     frameborder="0" allowfullscreen style="display:block;"></iframe>
-  <span style="font-family:'Share Tech Mono',monospace;font-size:9px;color:var(--ph-dim);padding:8px;letter-spacing:0.1em;">OBRA DE TEATRO · TENOCHTITLÁN</span>
-</div>'  },
-
-  'caballo-loco': {
+  <span style="font-family:'Share Tech Mono',monospace;font-size:9px;color:var(--ph-dim);padding:8px;letter-spacing:0.1em;">OBRA DE TEATRO · TENOCHTITLÁN</span>'
+  </div>`
+  },
+	-loco': {
     title: 'Noche de brujas en El Caballo Loco',
     badge: 'CAPÍTULO',
     body: `<p>Es de madrugada, pero seguimos despiertos aguantando este pinchi frio. El carro está helado y lo único que podemos hacer es tiritar mientras nos acercamos al Crazy Horse.</p>
