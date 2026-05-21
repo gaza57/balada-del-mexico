@@ -128,7 +128,7 @@ body: `<div class="media-slot">
 <p>Alberto le toca el hombro, serio. Las últimas notas del Himno Nacional de Estados Unidos, el Star-Spangled Banner se oyen exactas mientras uno de los batos encesta de lejos sin tocar aro.</p>
 <p>## Back to the future. 12:30 pm at the Midifile.</p>
 <p>El Joe y su amigo se quedan fijos en la pantalla que muestra un video de muchachos jugando básquetbol en aquella cancha legendaria de Agua Caliente, allí donde Memo Ayón encerraba a sus pupilos mientras los entrenaba como si fueran a contender por el campeonato contra Cassius Clay.</p>
-<p class="dialog">-Ese mismo día el siguiente de que murió Hendrix, fue la quemazón de la alberca donde estaba la dirección, era sábado, pero también los sábados teníamos clase. recuerda Alberto mientras bebe tranquilo.</p>
+<p class="dialog">-Ese mismo día el siguiente de que murió Hendrix, fue la <a class="hl" onclick="openModal('ap-incendio')">quemazón</a de la alberca donde estaba la dirección, era sábado, pero también los sábados teníamos clase. recuerda Alberto mientras bebe tranquilo.</p>
 <p class="dialog">-Dicen que el director la mandó quemar para poder hacer más aulas. Y que se quedó con muchas piezas representativas. comenta José Luis mientras sacude los hielos de su vaso.</p>
 <p class="dialog">- Yo no sé, pero lo que si sé es que el México escribió algo que vio unos días antes y que tal vez tenga que ver, fue una vez que se la pintió y se fue a espiar por abajo de los salones de madera del taller de  Corte y confección.</p>
 <p class="dialog">- ¿Le dices &quot;voyeur&quot; a un ausente?</p>
