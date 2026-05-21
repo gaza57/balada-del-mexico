@@ -232,7 +232,6 @@ body: `<div class="media-slot">
   <span style="font-family:'Share Tech Mono',monospace;font-size:9px;color:var(--ph-dim);padding:8px;letter-spacing:0.1em;">Réquiem</span>
 </div>`
   },
-
   'tenochtitlan': {
     title: 'Tenochtitlán',
     badge: 'CAPÍTULO',
