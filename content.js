@@ -212,8 +212,8 @@ body: `<div class="media-slot">
 <p>Lou Reed vestido de disfraz de pájaro que se puso Paul Simon que asemejaba al de Plaza Sésamo en el programa de Saturday Nigth Live, les grita desde una puerta flotando en el espacio: Step this side to the Magical Mistery Tour.</p>
 <p>En la sala virtual principal del home page, enfocamos el siguiente cuadro, es una pintura estilizada de dos hombres alrededor de un círculo. El Joe apachurra el ratón que hace Click.</p>
 <div class="media-slot" style="flex-direction:column;padding:0;">
- <iframe width="880" height="280" src="https://www.youtube.com/embed/PEc7--vftd0" frameborder="0" allowfullscreen style="display:block;"></iframe>
-  <span style="font-family:'Share Tech Mono',monospace;font-size:9px;color:var(--ph-dim);padding:8px;letter-spacing:0.1em;">gada da vida THE NEW RESIDENTS · 2000</span>
+ <iframe width="880" height="280" src="https://www.youtube.com/embed/8qrriKcwvlY" frameborder="0" allowfullscreen style="display:block;"></iframe>
+  <span style="font-family:'Share Tech Mono',monospace;font-size:9px;color:var(--ph-dim);padding:8px;letter-spacing:0.1em;">I have to weare shades TIMBUK 3 · 1974</span>
 </div>`
  
    },
