@@ -252,14 +252,15 @@ body: `<div class="media-slot">
 <p>La gente ha dejado de aspirar solo expira. En Tijuana la cosa no es diferente desde hace tiempo es un DF chiquito, ganar es el objetivo, lo que sea...</p>
 <p>En la pantalla Lou Reed sigue hablando.</p>
 <p class="dialog">-El recuerdo de otras épocas se vuelve más vivo, el disfrute de fechas especiales es algo normal, cumplir años, salir de la ciudad, noche buena, día de la amistad, del niño, del estudiante, del maestro, día de brujas, año nuevo, aquellos días vuelven en multimedia gracias a la realidad virtual.</p>
-<p class="dialog">-Mira esto, ese caballo, no volvió a relinchar. Es el México en su despedida a México.</p><div class="media-slot" style="flex-direction:column;padding:0;">
+<p class="dialog">-Mira esto, ese caballo, no volvió a relinchar. Es el México en su despedida a México.</p>
+<div class="media-slot" style="flex-direction:column;padding:0;">
   <iframe width="100%" height="360" 
     src="https://www.youtube.com/embed/jAQno8li1ks" 
     frameborder="0" allowfullscreen style="display:block;"></iframe>
   <span style="font-family:'Share Tech Mono',monospace;font-size:9px;color:var(--ph-dim);padding:8px;letter-spacing:0.1em;">OBRA DE TEATRO · TENOCHTITLÁN</span>
-  </div>`
+</div>`
   },
-	-loco': {
+	'loco': {
     title: 'Noche de brujas en El Caballo Loco',
     badge: 'CAPÍTULO',
     body: `<p>Es de madrugada, pero seguimos despiertos aguantando este pinchi frio. El carro está helado y lo único que podemos hacer es tiritar mientras nos acercamos al Crazy Horse.</p>
