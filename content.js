@@ -259,7 +259,7 @@ body: `<div class="media-slot">
   <span style="font-family:'Share Tech Mono',monospace;font-size:9px;color:var(--ph-dim);padding:8px;letter-spacing:0.1em;">La canante calva · video de JORGE GARCÍA, dirección de Ugo Palaviccino, con HEBERT AXEL</span>
 </div>`
   },
-	'caballo-loco': {
+  'caballo-loco': {
     title: 'Noche de brujas en El Caballo Loco',
     badge: 'CAPÍTULO',
     body: `<p>Es de madrugada, pero seguimos despiertos aguantando este pinchi frio. El carro está helado y lo único que podemos hacer es tiritar mientras nos acercamos al Crazy Horse.</p>
