@@ -128,7 +128,7 @@ body: `<div class="media-slot">
 <p>Alberto le toca el hombro, serio. Las últimas notas del Himno Nacional de Estados Unidos, el Star-Spangled Banner se oyen exactas mientras uno de los batos encesta de lejos sin tocar aro.</p>
 <p>## Back to the future. 12:30 pm at the Midifile.</p>
 <p>El Joe y su amigo se quedan fijos en la pantalla que muestra un video de muchachos jugando básquetbol en aquella cancha legendaria de Agua Caliente, allí donde Memo Ayón encerraba a sus pupilos mientras los entrenaba como si fueran a contender por el campeonato contra Cassius Clay.</p>
-<p class="dialog">-Ese mismo día el siguiente de que murió Hendrix, fue la quemazón de la alberca donde estaba la dirección, era sábado, pero también los sábados teníamos clase. recuerda Alberto mientras bebe tranquilo.</p>
+<p class="dialog">-Ese mismo día el siguiente de que murió Hendrix, fue la <a class="hl" onclick="openModal('ap-incendio')">quemazón</a de la alberca donde estaba la dirección, era sábado, pero también los sábados teníamos clase. recuerda Alberto mientras bebe tranquilo.</p>
 <p class="dialog">-Dicen que el director la mandó quemar para poder hacer más aulas. Y que se quedó con muchas piezas representativas. comenta José Luis mientras sacude los hielos de su vaso.</p>
 <p class="dialog">- Yo no sé, pero lo que si sé es que el México escribió algo que vio unos días antes y que tal vez tenga que ver, fue una vez que se la pintió y se fue a espiar por abajo de los salones de madera del taller de  Corte y confección.</p>
 <p class="dialog">- ¿Le dices &quot;voyeur&quot; a un ausente?</p>
@@ -151,69 +151,72 @@ body: `<div class="media-slot">
 <p>El México es defensa, es agresivo y muy faulero, grita todo el tiempo y alega a la mínima provocación. &quot;Hey tú , muévete al frente, Mira este güey. Dame, dame, bájense, bájense güeyes, fue faul, idiota, pinche &#x27;uey, sube, sube, ábrete, córrete, empujen, defiendan, salgan, corriendo, pásala, ábrela, mía puto, ay cabrón, aaah, ay güey, chín, ponte buzo, ándele súbase, despeja, ya oí, nooooo&#x27;mbre, yo lo tiro...&quot;</p>
 <p class="dialog">-Cuando vamos a observar el juego de Los de Abajo, formamos un grupo compacto observando el partido. Son rápidos y violentos a veces se arman broncas y aunque sólo somos espectadores tenemos que correr por la Quinta Alta bajo una lluvia de piedras. El México nunca roquea, prefiere las broncas &quot;cara-a-cara&quot;.</p>
 <p>El Mundial se acaba. Después de la victoria de Brasil vengándose de los jotos italianos que golearon a México. *Va Carlos Alberto se la pasa a Jair, Jair avanza, Pelé, Gerson, Jair, Gerson, Carlos Albertooooooooo...GOOOOOL*. El auge futbolístico se termina y llega el reinado del béisbol, el rey de los deportes, traído de otras partes por un nuevo miembro del barrio, El Perico, quien también trae un disco que explota en medio de la Pista, en la Durango y con Los de Abajo: In a gadda da vida, a toda hora durante el final de ese verano se oye la versión larga, se escuchan constantes como parte del aire que se respira los acordes bluseados del órgano rocanrolero de Iron Butterfly. El México se va a México. Y el Perico llega a la Mesa. El gol se destierra y llega el ponche y el hit. Los Padres de San Diego cumplen su segundo año en las ligas mayores: Now for the San Diego Padres... *numberelevenEnnnnnso... Hernández! *y el clásico de octubre se vuelve el acontecimiento del año. Los milagrosos Mets y los espectaculares Orioles en la serie mundial nos enseñan la magia del rey de los deportes. La casa del México es grande y extraña, no sabemos quién vive allí. Atrás de todo eso se oye, otra vez, el Himno Nacional de los Estados Unidos, distorsionado, irreal, es la Experiencia...</p>
+<div class="media-slot" style="flex-direction:column;padding:0;">
+ <iframe width="880" height="280" src="https://www.youtube.com/embed/PEc7--vftd0" frameborder="0" allowfullscreen style="display:block;"></iframe>
+  <span style="font-family:'Share Tech Mono',monospace;font-size:9px;color:var(--ph-dim);padding:8px;letter-spacing:0.1em;">gada da vida THE NEW RESIDENTS · 2000</span>
+</div>
 <p>José Luis pensativo, se quita los lentes 3D. Bebe de su whisky saboreando el gusto metálico escocés revuelto con agua natural, sintiendo la caída libre del líquido a través del esófago, casi escuchando el &quot;splash&quot; al reunirse el trago con los otros anteriores que descansan en su panza antes de pasar al intestino con destino al mingitorio, no sin antes proveer las enzimas apropiadas que recuperadas por la sangre le permitan encontrar ese equilibrio impecable, entre la razón, la somnolencia, la claridad, la tranquilidad, la frescura, el olvido, la motivación y el bienestar.</p>
 <p class="dialog">- Experiencia... Pronuncia apreciativo, - Tan importante cuando no la tienes, tan inútil cuando ya tienes suficiente. Hace cuarenta años cuando íbamos a jugarles al otro barrio, ¿Puedes decirme qué era más importante que humillarlos, que ganarles o por lo menos descalabrar a alguien?</p>
 <p class="dialog">- ¿Qué es más importante ahorita, es lo que yo quiero saber?</p>
-<div class=”media-slot”>[ AUDIO · “IN-A-GADDA-DA-VIDA” — IRON BUTTERFLY · 1968 ]</div>`
-  },
-
-  'el-juego': {
-    title: 'El Juego',
-    badge: 'CAPÍTULO',
-    body: `<p>El juego era importante, cruzando el llano estaba La Durango, tierra legendaria a donde nadie se aventuraba a pesar de que podía llegarse sólo cruzando quinientos metros de yerba crecida. En el campo de la Durango, Los de Abajo tenían algo que probar, ganarles a aquellos que siempre habían jugado en equipos organizados, aquellos que jugaban con zapatos con tacos de cuero y los sábados iban a jugar al puente de la línea al Romero Manzo.</p>
+<p>El juego era importante, cruzando el llano estaba La Durango, tierra legendaria a donde nadie se aventuraba a pesar de que podía llegarse sólo cruzando quinientos metros de yerba crecida. En el campo de la Durango, Los de Abajo tenían algo que probar, ganarles a aquellos que siempre habían jugado en equipos organizados, aquellos que jugaban con zapatos con tacos de cuero y los sábados iban a jugar al puente de la línea al Romero Manzo.</p>
 <p>El domingo tempranito, aguantándose el frío mañanero en la mitad de la Colchonera se empezaron a juntar los de Abajo, El México sólo tuvo que levantarse de la cama, ponerse unos shorts, una camiseta sus zapatos de fut de tacos de plástico, entrar al baño mojarse la cara, pasar por la cocina agarrar un pan, abrir la puerta, cruzar la calle y encontrarse con los demás: El Neto, Gilberto, Perico, David, Mario y el Wichoni.</p>
-<p class=”dialog”>-Y el balón. pregunta sacudiéndose el agua helada que salpica a todos los presente.</p>
-<p class=”dialog”>-Orale güey estás salpicando todo. Grita instantáneamente el Neto.</p>
-<p class=”dialog”>-Los morros de la Electricistas quedaron en traer uno, le vamos a pasar chanza al Michel y al Gela, para completarnos.</p>
-<p class=”dialog”>-Están muy morros.</p>
-<p class=”dialog”>-Ni modo no tenemos gente. Vámonos yendo.</p>
+<p class="dialog">-Y el balón. pregunta sacudiéndose el agua helada que salpica a todos los presente.</p>
+<p class="dialog">-Orale güey estás salpicando todo. Grita instantáneamente el Neto.</p>
+<p class="dialog">-Los morros de la Electricistas quedaron en traer uno, le vamos a pasar chanza al Michel y al Gela, para completarnos.</p>
+<p class="dialog">-Están muy morros.</p>
+<p class="dialog">-Ni modo no tenemos gente. Vámonos yendo.</p>
 <p>El grupo empieza a caminar a la calle para doblar a la izquierda todos van serios, haciendo calistenia para entrar en calor, la yerba seca está húmeda, empiezan a cruzar el llano, a mitad del camino todos tienen los calcetines llenos de espinas. Mal augurio. Al otro lado, los de la Durango se divisan en el campo todos con camisetas de fut, de equipos de la primera división, de las chivas, del Oro, del Atlas. El México observa burlón hacia adelante, se desfaja su camiseta de los Rockets, el Perico también se desfaja su camiseta de beisbol blanca con mangas amarillas..</p>
-<p class=”dialog”>-Estos batos parecen que están en la peni, todos con camisetas a rayas, qué mamones. El México se empieza a reir escandalosamente. Los demás también sonríen. Cuando pisan tierra sin zacate, ya están en el campo de la Durango. El sol empieza a calentar.</p>
+<p class="dialog">-Estos batos parecen que están en la peni, todos con camisetas a rayas, qué mamones. El México se empieza a reir escandalosamente. Los demás también sonríen. Cuando pisan tierra sin zacate, ya están en el campo de la Durango. El sol empieza a calentar.</p>
 <p>_Qué onda. Pronuncia el México despectivo.</p>
-<p class=”dialog”>-Qué onda. El Chugo, pateando el balón.</p>
-<p class=”dialog”>-Nomas somos seis orita llegan otros dos.</p>
-<p class=”dialog”>-Empezamos seis contra seis.</p>
-<p class=”dialog”>- Mejor nos esperamos un rato. Cuando lleguen a cinco goles con cambio de portería.</p>
-<p class=”dialog”>-Sobres.</p>
+<p class="dialog">-Qué onda. El Chugo, pateando el balón.</p>
+<p class="dialog">-Nomas somos seis orita llegan otros dos.</p>
+<p class="dialog">-Empezamos seis contra seis.</p>
+<p class="dialog">- Mejor nos esperamos un rato. Cuando lleguen a cinco goles con cambio de portería.</p>
+<p class="dialog">-Sobres.</p>
 <p>El primer tiempo empezó con mucha seguridad por parte de los alacranes, atacaron duro, haciendo volar dos o tres veces al Perico, que aunque no es muy bueno para el Fut si es muy aferrado. A falta de arbitro hay mucho que alegar y los dos bandos lo hacen con ganas defendiendo sus puntos. Los refuerzos de la Electricistas resultaron adecuados, El Michel Y el Gela no se arredran y devuelven faul con faul. El Lechuga se cuela por tercera vez por el centro esta vez no estrella su tiro en la defensa abre al extremo donde como tromba entra su compañero. El primer gol marca el ritmo, sucesivamente la durango se pone 2-0, 3-1, 4-1, 4-2  y 5-2. el primer tiempo termina abajo los de abajo.</p>
-<p class=”dialog”>- Tenemos que atacar más, no se dejen, los traen todos escamados. dice el México, luego se inclina en medio de la bolita y empieza a trazar en la tierra con una varita. Complicadas jugadas señalando a cada quien lo que tiene que hacer. Todos asienten serios aunque en el fondo para todos está muy claro que lo que hay que hacer es muy sencillo, meterle ganas, y ganar o si no se puede,meterle ganas y faulear todo lo que se pueda.</p>
-<p class=”dialog”>- Oye pa&#x27;que hacemos tantas jugadas, nomás vamos y les rajamos en su madre y ya&#x27;stuvo, pinches güeyes son bien fauleros. La estrategia del Michel recibe aceptación del Perico y de Wichoni.</p>
-<p class=”dialog”>- Si es cierto, cada vez que ataquen nos le barremos en los tobillos. Dice el Wichoni.</p>
-<p class=”dialog”>- Si brincan los madreamos. Apoya el Perico.</p>
+<p class="dialog">- Tenemos que atacar más, no se dejen, los traen todos escamados. dice el México, luego se inclina en medio de la bolita y empieza a trazar en la tierra con una varita. Complicadas jugadas señalando a cada quien lo que tiene que hacer. Todos asienten serios aunque en el fondo para todos está muy claro que lo que hay que hacer es muy sencillo, meterle ganas, y ganar o si no se puede,meterle ganas y faulear todo lo que se pueda.</p>
+<p class="dialog">- Oye pa&#x27;que hacemos tantas jugadas, nomás vamos y les rajamos en su madre y ya&#x27;stuvo, pinches güeyes son bien fauleros. La estrategia del Michel recibe aceptación del Perico y de Wichoni.</p>
+<p class="dialog">- Si es cierto, cada vez que ataquen nos le barremos en los tobillos. Dice el Wichoni.</p>
+<p class="dialog">- Si brincan los madreamos. Apoya el Perico.</p>
 <p>El México se queda pensativo, sopesando la estrategia, comparándola con la suya, de más técnica, de más deportivismo, de más en la línea de Pierre de Coubertain, evalúa pensativo y por fin asiente:</p>
-<p class=”dialog”>- Pos sí, ¿Mejor nos los chingamos no?</p>
+<p class="dialog">- Pos sí, ¿Mejor nos los chingamos no?</p>
 <p>Dicho y hecho, el juego recrudece se vuelve ciento por ciento rudo termina 10 a 5 el último gol fue de cabeza, pero el jugador de la Durango se llevó un tremendo patadón del Perico en la cara que le sacó el mole, Los de Abajo empiezan a correr, cruzan el llano en tiempo récord bajo una lluvia de piedras. se concentran en la Colchonera, planeando el contrataque que saben nunca se dará. Comentan el partido en el fondo reconocen la superioridad, pero nadie lo verbaliza, una vez agotado el tema el grupo se separa todos se van a su casa , el Michel al pasar por &quot;la pista”&quot; voltea por última vez hacia el llano y dice muy seguro:</p>
-<p class=”dialog”>- Si les podemos ganar. Pinches jotos montoneros.</p>
+<p class="dialog">- Si les podemos ganar. Pinches jotos montoneros.</p>
 <p>Alberto observa sobre el hombro una pareja de ciberpunks que en su SevenSeal no dejan de observar videos tridimensionales del MTV3D, con sus cascos de realidad virtual. navegan en un espacio de sonidos no aptos para cardíacos, tomados de la mano. La imagen le resulta tierna.</p>
-<p class=”dialog”>- Tienes razón Joe, como dice la canción *to much experiencie will kill you. *</p>
-<p class=”dialog”>- Es *to much love...*</p>
-<p class=”dialog”>- Es lo mismo.</p>
+<p class="dialog">- Tienes razón Joe, como dice la canción *to much experiencie will kill you. *</p>
+<p class="dialog">- Es *to much love...*</p>
+<p class="dialog">- Es lo mismo.</p>
 <p>Al escoger *la experiencia*, Lou Reed los regresa al cuadro del Réquiem pero un requiem mucho mas barroco, principia con música de Bach y no admite interrupciones hasta que el bato vuelve a encestar sin tocar aro. Esta vez las imágenes son muy cinematográficas. Al final el Joe y el Beto carraspean con los ojos llorosos. Observan la reanudación con una representación de dibujos animados, muy realista, al estilo japonés:</p>
 <p>El México se sienta tranquilamente en una piedra mientras los otros, también buscan un lugar en donde colocarse, van quedando en semicírculo abiertos hacia el fondo del campo, el sol empieza a ocultarse, se esconde tras las nubes que flotan sobre el horizonte. El cielo se muestra monumental; grandes bocanadas de espuma muestran iridicentes sus algodones pintados de gris, violeta, naranja, amarillo y rojo, entre sus caprichos también se escapan bastones dorados y plateados que se proyectan ya sea hacia otros pliegues de las nubes o simplemente se desvanecen en la inmensidad. El clima es helado, con un aire completamente transparente. Sentados cada quien en su piedra están El Neto, Gilberto, El Perico y El México. La bateria pesada, los grandes. El México se para sobre la piedra, con las manos en los bolsillos, diciendo solemnemente: Estamos aquí reunidos, en un momento crucial de la patria, grita patria y se oye el eco; queremos saber qué hacemos en este pinche día tan serio, tan pasivo y tan aplatanado. He dicho. El ademán, la finura y el colofón, haciendo una reverencia &quot;a la zappa&quot; resultan graciosos, todos se ríen exageradamente, Gilberto aprieta el estómago y se revuelca en la tierra. No aguanta la cura. ¿Qué onda zurdo, qué te picó? dice el Perico. Quién te picó dice el México. Sácalo compa dice el Neto. Gilberto se levanta serio: &quot;A ver, quién le pega a aquel poste. Señala un poste telefónico nuevo, chaparrito, retirado del grupo como unos cincuenta metros. Toma una roca y lanzándola con una fuerza tremenda la hace volar en línea rectísima estrellándola escandalosamente en el poste, a casi tres metros del suelo. El sonido de la piedra al chocar con el madero produce un trueno que se repite claro e incesante en la amplio paisaje. Una vez que el eco ha visitado todas las esquinas y recovecos del paisaje; todos por turno intentan repetir la hazaña, nadie más le atina. Gilberto vuelve a tomar impulso y nuevamente estrella una piedronona en el poste. -Tienes una puntería recabrona, deberías ser pitcher, dice el Perico, aunque nomás tiras a lo buey. Luego agrega, vamos a mi casa a oir un disco.</p>
 <p>El Joe y Albert empiezan a escuchar una canción cuyo título de principio no identifican, por las guitarras se dan cuenta de que es Blue Oister Cult. en la pantalla se ve un video sepia.</p>
 <p>Secuencia 1. atardeciendo. un automóvil chevi 64 blanco, circula lentamente por una calle angosta de fraccionamiento se detiene brevemente frente a una casa azul que se repite a lo largo de la calle pero en colores diferentes, y esta del lado derecho del chofer, en la banqueta esta estacionado un flamante auto firebird 68, el Chevi sigue adelante y da vuelta a la cuadra.</p>
 <p>Secuencia 2. Interior del chevi. manejando el Perico. Sin dejar de circular. en la última frase del diálogo el Perico detendrá su auto en la misma casa. a su lado el Neto. Atras del chofer el México y en la ventana de la derecha Gilberto.</p>
-<p class=”dialog”>- No se ve nadie, pero sí están adentro. Voy a dar la vuelta y de volada.</p>
-<p class=”dialog”>-No mas te detienes y nos bajamos. (dice Neto con la brocha en la mano)</p>
-<p class=”dialog”>-Insisto en que es una idiotez hacer esto, pero pos ya que insisten venga paca la cubeta, abreme campo Gilberto.</p>
+<p class="dialog">- No se ve nadie, pero sí están adentro. Voy a dar la vuelta y de volada.</p>
+<p class="dialog">-No mas te detienes y nos bajamos. (dice Neto con la brocha en la mano)</p>
+<p class="dialog">-Insisto en que es una idiotez hacer esto, pero pos ya que insisten venga paca la cubeta, abreme campo Gilberto.</p>
 <p>Secuencia tres. El auto se detiene, se abren las puertas del lado derecho bajan tranquilamente los tres muchachos, uno ve sobre el auto hacia la puerta de la casa, los otros agachados, uno sujeta la cubeta y el otro hundiendo generosamente la brocha en la cubeta, traslada la pintura al auto estacionado, pinta la ventana del chofer, la puerta, con grandes brochazos en forma de cruz, sin apurarse, duran haciendolo como unos treinta segundos , suben al auto que prosigue la marcha a una velocidad regular. la escena se queda vacia con el auto en longshot mostrando la pintura escurriendo.</p>
 <p>*Mientras antes* en la casa del Perico.</p>
-<p class=”dialog”>-Ya apaga el tocadiscos, entonces qué, ¿Vamos o no? dice el Neto.</p>
-<p class=”dialog”>-Yo digo que si, esos morros nos la deben en especial ese &quot;Loco&quot;. Dice el Perico mientras se levanta y apaga el tocadiscos sacando cuidadosamente el disco y colocandolo en su funda.</p>
+<p class="dialog">-Ya apaga el tocadiscos, entonces qué, ¿Vamos o no? dice el Neto.</p>
+<p class="dialog">-Yo digo que si, esos morros nos la deben en especial ese &quot;Loco&quot;. Dice el Perico mientras se levanta y apaga el tocadiscos sacando cuidadosamente el disco y colocandolo en su funda.</p>
 <p>Todos están serios, pensativos y un  poco distraidos. Gilberto empieza a reirse.</p>
-<p class=”dialog”>- Cual es tu cura. pregunta Neto molesto.</p>
-<p class=”dialog”>- Que les parece esto. se acerca a los demás y empiezan a cuchichear.</p>
+<p class="dialog">- Cual es tu cura. pregunta Neto molesto.</p>
+<p class="dialog">- Que les parece esto. se acerca a los demás y empiezan a cuchichear.</p>
 <p>La voz del México sobresale de los demás, resume: Como son gachos, me cai que no se miden. Todos asienten sonriendo. Salen de la casa y se suben al chevi blanco del Perico, Gilberto lleva una cubeta en la mano.</p>
 <p>La pantalla de 27 pulgadas de la computadora Seven Seal, explota en efectos psicodélicos mientras se escucha la melodía sintetizada de &quot;Ligth my Fire&quot;. José aprovecha para llamar a la mesera por más pistos. Alberto inteligentemente cambia su bebida por otro Chivo.</p>
-<p class=”dialog”>- No deja de sorprenderme esta tecnología moderna, viajar al pasado acompañados por un Lou Reed cibernético se me hace de lo mas alucinado. Vieras cuánto tiempo tenía de no escuchar In a ga da da vida, me a traido recuerdos agradables. ¿Dónde consiguió tu primo las fotos del México?</p>
-<p class=”dialog”>- Quien sabe. última hora aquí mismo en el internet.</p>
-<p class=”dialog”>- ¿Por qué no te juntabas con él?</p>
-<p class=”dialog”>- El era más grande, ponle dos o tres años pero a esa edad eso cuenta mucho además yo siempre he sido medio ingenuo, medio menso para que me entiendas.</p>
-<p class=”dialog”>- ¿Cómo reaccionó el &quot;Loco&quot;?</p>
+<p class="dialog">- No deja de sorprenderme esta tecnología moderna, viajar al pasado acompañados por un Lou Reed cibernético se me hace de lo mas alucinado. Vieras cuánto tiempo tenía de no escuchar In a ga da da vida, me a traido recuerdos agradables. ¿Dónde consiguió tu primo las fotos del México?</p>
+<p class="dialog">- Quien sabe. última hora aquí mismo en el internet.</p>
+<p class="dialog">- ¿Por qué no te juntabas con él?</p>
+<p class="dialog">- El era más grande, ponle dos o tres años pero a esa edad eso cuenta mucho además yo siempre he sido medio ingenuo, medio menso para que me entiendas.</p>
+<p class="dialog">- ¿Cómo reaccionó el &quot;Loco&quot;?</p>
 <p>Alberto se encoge de hombros. - Se puso a limpiar su carro. Reflexionando agrega: Pero óyeme quién te dijo que todo eso en verdad pasó, que ¿no leiste el Juego de los Abalorios?</p>
 <p>Lou Reed vestido de disfraz de pájaro que se puso Paul Simon que asemejaba al de Plaza Sésamo en el programa de Saturday Nigth Live, les grita desde una puerta flotando en el espacio: Step this side to the Magical Mistery Tour.</p>
-<p>En la sala virtual principal del home page, enfocamos el siguiente cuadro, es una pintura estilizada de dos hombres alrededor de un círculo. El Joe apachurra el ratón que hace Click.</p>`
-  },
+<p>En la sala virtual principal del home page, enfocamos el siguiente cuadro, es una pintura estilizada de dos hombres alrededor de un círculo. El Joe apachurra el ratón que hace Click.</p>
+<div class="media-slot" style="flex-direction:column;padding:0;">
+ <iframe width="880" height="280" src="https://www.youtube.com/embed/8qrriKcwvlY" frameborder="0" allowfullscreen style="display:block;"></iframe>
+  <span style="font-family:'Share Tech Mono',monospace;font-size:9px;color:var(--ph-dim);padding:8px;letter-spacing:0.1em;">I have to weare shades TIMBUK 3 · 1974</span>
+</div>`
+ 
+   },
 
   'dos-hermanos': {
     title: 'Dos hermanos',
@@ -223,9 +226,12 @@ body: `<div class="media-slot">
 <p class="dialog">-No sé, las cosas realistas pierden su concresión al narrarse, la imagen creada de acuerdo a tu narración contiene las limitantes propias de los equipos, las acciones obedecen a una facilidad cinematográfica más que a un rigor sistemática, pero dime Alberto ¿De qué se trata?</p>
 <p class="dialog">-Yo creo que se trata de obtener esencias, exprimir hechos, moldearlos, agregar efectos y el olor tiene que ser característico.</p>
 <p class="dialog">-NO te entendí.</p>
-<p class="dialog">-Fijate cómo lo imagino. Observa ese cuadro mitad claridad mitad indefinido, es Tijuana y México. Fíjate en los contornos. Allí se ve algo profesor Nemo...</p>`
+<p class="dialog">-Fijate cómo lo imagino. Observa ese cuadro mitad claridad mitad indefinido, es Tijuana y México. Fíjate en los contornos. Allí se ve algo profesor Nemo...</p>
+<div class="media-slot" style="flex-direction:column;padding:0;">
+  <img src="media/img/Imagen.jpg" style="width:100%;max-height:320px;object-fit:cover;opacity:0.85;" alt="descripción">
+  <span style="font-family:'Share Tech Mono',monospace;font-size:9px;color:var(--ph-dim);padding:8px;letter-spacing:0.1em;">Réquiem</span>
+</div>`
   },
-
   'tenochtitlan': {
     title: 'Tenochtitlán',
     badge: 'CAPÍTULO',
@@ -245,9 +251,15 @@ body: `<div class="media-slot">
 <p>La gente ha dejado de aspirar solo expira. En Tijuana la cosa no es diferente desde hace tiempo es un DF chiquito, ganar es el objetivo, lo que sea...</p>
 <p>En la pantalla Lou Reed sigue hablando.</p>
 <p class="dialog">-El recuerdo de otras épocas se vuelve más vivo, el disfrute de fechas especiales es algo normal, cumplir años, salir de la ciudad, noche buena, día de la amistad, del niño, del estudiante, del maestro, día de brujas, año nuevo, aquellos días vuelven en multimedia gracias a la realidad virtual.</p>
-<p class="dialog">-Mira esto, ese caballo, no volvió a relinchar. Es el México en su despedida a México.</p>`
+<p class="dialog">-Mira esto, ese caballo, no volvió a relinchar. Es el México en su despedida a México.</p>
+<div class="media-slot" style="flex-direction:column;padding:0;">
+  <iframe width="100%" height="360" 
+    src="https://www.youtube.com/embed/jAQno8li1ks" 
+    frameborder="0" allowfullscreen style="display:block;"></iframe>
+  <span style="font-family:'Share Tech Mono',monospace;font-size:9px;color:var(--ph-dim);padding:8px;letter-spacing:0.1em;">La canante calva · video de JORGE GARCÍA, dirección de Ugo Palaviccino, con HEBERT AXEL</span>
+</div>`
   },
-
+	
   'caballo-loco': {
     title: 'Noche de brujas en El Caballo Loco',
     badge: 'CAPÍTULO',
@@ -307,7 +319,10 @@ body: `<div class="media-slot">
     title: 'El viaje',
     badge: 'CAPÍTULO',
     body: `<p>La fila tiene como 20 personas, todas a sus pies muestran maletas, bolsas, cajas, morrales, jaulas, y personitas; hay niños de brazos -llorando of course, niñas que quieren ir al baño, niños que apenas caminan portando en sus cinturas pistolas de plástico verde made in yapán y sus bocas llenas de caramelos, chiclosos, paletas, chicles, fruta y algunas otras confiterías. El México y su hermano se colocan al final de la fila que una hora después se convierte en la mitad de la fila. El México ya fue al baño, compró una revista en el estanquillo que mostraba una gama extraña para leer, junto al Por qué, la Familia Burrón, El lágrimas y risas, Memín Pingüín, Siempre; habían también dos de Chanoc, uno que se trataba de la selección resto del mundo contra el equipo de Tsekubino Baloneiro; en la pasta el viejo bigotón todo pintado de negro se aventaba una chilena que al parecer estaba dejando sin posibilidades a la araña negra Lev Yashín; el otro de Chanoc quién sabe de que se trataría, mostraba a Chanoc viendo de reojo a su tío que a su vez abrasaba a dos güeras abrazándolas; el México había comprado un Box y Lucha. Ya su hermano le había dado carrilla por sus elevadas lecturas, cosa que al Mex le dejaba sin cuidado, lo mismo leía a Nietzche o Shoppenhauer que el Hit, México Canta o el nuevo de Box y Lucha, cuando empezaron a vender los boletos la fila se empezó a mover y media hora después el México decía: dos para México.</p>
-<p>Era una boca de tamaño normal, pero en su perímetro con un grosor poco uniforme de entre dos y tres centímetros se dibujaba un contorno de miel, un líquido espeso color rojo mezclado con saliva y un poco de tierra; a veces se abrían los labios dejando entrever unos dientes de ratón también achiclonados de la misma mezcla pegajosa; la mueca era de risa en realidad daba la lejana idea de un payaso pero en pequeño; el Joe no podía apartar sus ojos de aquella cara que aparecía como si fuera de teatro guiñol, por sobre el asiento delantero que debía ser el 14V ya que el suyo era 18v pegado a la ventana. El autobús marchaba a buena velocidad apenas dejando atrás la Presa Rodríguez, apenas media hora de un viaje de más de 48 horas con destino al DF y ya el Joe había recibido un paletazo, una sacada de lengua y una pelota llena de caramelo de su compañero de viaje del asiento de enfrente, un gracioso niño de ocho años, con 45 kilogramos de peso, mayormente reflejados en la panza y en la sangre y, su querida mamá, una señora rebosante y acalorada que ya había hecho tres incursiones al baño del moderno autobús Tres Estrellas de Oro. El viaje sería, a juzgar por el Joe de 48 horas de las largas, su hermano, el México, a su lado en el 17p dormía con una pierna en el pasillo.</p>
+<p>Era una boca de tamaño normal, pero en su perímetro con un grosor poco uniforme de entre dos y tres centímetros se dibujaba un contorno de miel, un líquido espeso color rojo mezclado con saliva y un poco de tierra; a veces se abrían los labios dejando entrever unos dientes de ratón también achiclonados de la misma mezcla pegajosa; la mueca era de risa en realidad daba la lejana idea de un payaso pero en pequeño; el Joe no podía apartar sus ojos de aquella cara que aparecía como si fuera de teatro guiñol, por sobre el asiento delantero que debía ser el 14V ya que el suyo era 18v pegado a la ventana. El autobús marchaba a buena velocidad apenas dejando atrás la Presa Rodríguez, apenas media hora de un viaje de más de 48 horas con destino al DF y ya el Joe había recibido un paletazo, una sacada de lengua y una pelota llena de caramelo de su compañero de viaje del asiento de enfrente, un gracioso niño de ocho años, con 45 kilogramos de peso, mayormente reflejados en la panza y en la sangre y, su querida mamá, una señora rebosante y acalorada que ya había hecho tres incursiones al baño del moderno autobús Tres Estrellas de Oro. El viaje sería, a juzgar por el Joe de 48 horas de las largas, su hermano, el México, a su lado en el 17p dormía con una pierna en el pasillo.</p> <div class="media-slot" style="flex-direction:column;padding:0;">
+  <video controls src="media/video/boxylucha.mp4" style="width:100%;max-height:360px;background:#000;"></video>
+  <span style="font-family:'Share Tech Mono',monospace;font-size:9px;color:var(--ph-dim);padding:8px;letter-spacing:0.1em;">BOX Y LUCHA 1979 </span>
+</div>
 <p>Cuando el México subió al autobús lo hizo casi al último, se la había pasado platicando con los choferes que atestiguaban la subida de los velices en la parte baja del vehículo; las entrañas de ese camión Dina se llenaron de toda suerte de velices, cajas, petacas, bolsas de ixtle, de plástico, algunos enseres específicos como una llanta nueva Goodrich Euzkady sin rin, una poltrona envuelta en una cobija, una bicicleta y un árbol de navidad de plástico. El México hablaba animadamente con el chofer que, cada vez que se reía ante una ocurrencia, dejaba saltar su panza pulcramente forrada por una camisa blanca de poliéster, la moderna tela envolviendo el contorno gelatinoso se movía cadenciosamente en oleadas simpáticas aun unos segundos después de que el chofer había dejado de reír. Terminados los preparativos, caliente el motor Dina el México y el chofer, subieron al autobús; un instante después que el primero hubo pronunciado a toda voz, !Vámonos a la chingada pues, ya quiero llegar al DF. En cuanto se sentó en su asiento le dijo a su hermano: -¿No compraste tabacos? déjame dormir, dijo el Joe. Antes de que pudiera volver a cerrar los ojos, recibió en la pura cara un proyectil pequeño, del tamaño de una naranja, color anaranjado, de consistencia blanda, remojado al parecer en una sustancia chiclosa, era la pelotita de Pachito, el niño que lo molestaría por los próximos 2500 kilómetros de viaje a la moderna Tenochtitlán, de Aztlán a Tenochtitlán, la repetición del viaje, Journey to the center of the earth, Walking on the wild side, Get back YOYO , México here I go...</p>
 <p>José asiente y recuerda después del quinto vaso:</p>
 <p class="dialog">- El DF esta café. El primer patadón es la vista brumosa y sucia de un horizonte lleno de edificios, vamos por la autopista entrando a la cueva más grande del mundo, internándonos en un eterno remolino de humo y tierra, a lo lejos observamos que el cielo cambia de color ya no es azul, es un gris triste que oprime nuestros estómagos, nada se ve brillante, los edificios monumentales se muestran apagados, sin vida, aún el sonido de los autos que por la derecha nos rebasan suenan ajenos, parece un enorme pueblo fantasma, nosotros en nuestro autobús, cruzando la calle principal, entre el terregal levantado por el viento de otoño, cruzando lentamente tratando de percibir cualquier movimiento que pudiera ponernos en peligro, sintiéndonos vaqueros del oeste, entrando al pueblo, viendo rodar por frente a nosotros arbustos secos, avanzamos irremediablemente a atascarnos en el smog cotidiano de Distrito Federal. La gente se despereza levantándose de sus asientos, todos nos empezamos a preparar, poniéndonos nuestras corazas de indiferencia, nuestro pesimismo anticruz roja, motivándonos a valernos por nosotros mismos, no esperar ayuda ajena ni prestarla indiscriminadamente, preparándonos a luchar por los lugares, a acomodarnos como podamos, a hacer colas, a comer parados, a empujar, a sobrevivir en la soledad desértica del pueblito. A gritar sin vergüenza sobre la multitud: écheme otro de ojo, maestro!</p>
@@ -356,7 +371,14 @@ body: `<div class="media-slot">
     title: 'Fast rock en el Mike\'s',
     badge: 'CAPÍTULO',
     body: `<p>¿A qué horas se fue? no lo sé. lo único que sé es que me quedé aquí sentado esperando la tercera tanda de La Cruz ¿O, la cuarta?, a ver... si me concentro. Todavía no anochecía cuando llegamos a la puerta del Mike&#x27;s, del Miguelín  a Go Go, ahorita seguro que ya es de noche ¿Pronto a amanecer? No, no creo, según calculo han pasado unas seis horas, si llegamos a las siete de la tarde han de ser como la una de la mañana; El México se fue en un período de descanso de la banda, cuando yo buscaba con quién bailar; está todo a media luz, la parte de arriba está vacía, sólo una pareja pegada al barandal platica y ríe de cuando en cuando; al fondo cerca del baño está un gringo y un negro bastante muy especialmente atequilados; camino tambaleante entre las mesas cercanas a <a class="hl" onclick="openModal('ap-pista')">la pista</a>, saco a bailar a una güera y no me contesta, me fijo con atención y está con los ojos cerrados bastante un poco mareada, debe haber bebido muchas margaritas. Cuando regresé a sentarme ya no estaba, ¿O, sí? ¿Me insistió para irnos juntos? No recuerdo, lo que me hace pensar que no fue así, es que si estoy haciendo todas estas reflexiones es porque las cosas no se me están olvidando y si no me acuerdo que se despidió es porque no lo hizo. Lo que sí no me acuerdo, aunque esto es normal, a toda la gente le pasa, es ¿Cuántos desarmadores llevo? Un desarmador es un screwdriver, yo le decía school driver, me parecía lógico que la mezcla de alcohol de papa ruso revuelto con jugos de naranjas americanas debía ser un chofer escolar que nos llevara a los cruces de camino en donde uno no sabe para donde irse. Veamos, fueron sos, digo, dos, casi seguidos cuando llegamos, tú sabes, la hora feliz, yo pagué, después otro que pagó El México, después empezó la primera presentación de la Cruz, tocaron &quot;Keep yourself alive&quot; y &quot;Liar&quot; de Queen de cuando Fredie y su gente tocaban música más pesada, de cuando eran una banda rockera comparables a, no sé, ponle a Scorpions o maybi ACDC pero mucho mejores, finos y pesados a la vez, inteligentes y románticos, algo góticos y muy sensuales, una guitarra genial de May sin nada que pedir a la exactitud de Clapton, velocidad de Page, la intensidad de Alvin Lee ahora  <a class="hl" onclick="openModal('ap-veinte')">veinte años después</a>, or estereofonía de Hendrix, ¿Exagero? claro que exagero pero pos son mis ídolos ¿y qué?,  en ese pedazo me tomé otros dos, van cinco, en el primer descanso me tomé uno, un screw, to screw es lo que realmente queríamos al ir al &quot;Ir-ir de Miguel&quot;.  El México cambió a escocés, son seis, la segunda tanda... La tercera, ya me acordé que estoy esperando la tercera tanda, sí, porque en la segunda se aventaron &quot;Bohemian Rapsody&quot;; el Chacón se la rifó con un buen requinteo y una güera anduvo bailando sola por la pista; ahí nos tomamos otros dos, entonces van ocho... Sí, contesté, vete yendo, nomás me acabo este que es el noveno, ahora que me acuerdo que si volteo a las escaleras, allí va subiendo el Mexiquillo, acaba de levantarse, ahora que me acuerdo. Yo también ya me voy.</p>
-<div class="media-slot">[ AUDIO · "KEEP YOURSELF ALIVE" — QUEEN · 1973 ]</div>`
+<div class="media-slot">
+  <audio controls src="media/audio/lacruzsomething.mp3" style="width:60%;max-width:320px;"></audio>
+  <span style="font-family:'Share Tech Mono',monospace;font-size:10px;color:var(--ph-dim);margin-left:12px;letter-spacing:0.08em;">improv · LA CRUZ DE TIJUANA SOMETHING FOR EVERYONE 1973 · now</span>
+</div>
+ <div class="media-slot" style="flex-direction:column;padding:0;">
+  <img src="media/img/lacruz2.JPG" style="width:100%;max-height:600px;object-fit:cover;opacity:0.85;" alt="descripción">
+  <span style="font-family:'Share Tech Mono',monospace;font-size:9px;color:var(--ph-dim);padding:8px;letter-spacing:0.1em;">LA CRUZ EN EL MIKE’S A GO GO</span>
+</div>`
   },
 
   'cuadros2': {
@@ -380,7 +402,138 @@ body: `<div class="media-slot">
     badge: 'CAPÍTULO',
     body: `<p>Un día me desperté muy temprano, acababa de amanecer, el sol era un sol de sábado de verano, el ambiente todavía se sentía fresco bajo la única cobija que me cubría, empecé a oir, o ¿Fue lo que me despertó?, un repicar contínuo y melodioso, no era la iglesia de San Miguel, no era domingo, además estas campanadas eran más claras, más cercanas, más cristalinas. Me vestí y salí a buscar el origen, camine un par de manzanas, identificando el origen llegué a su casa, él estaba sentado en los escalones de la entrada leyendo un libro, no se sorprendió de verme, levantó la mirada, mira qué chingón... me lo enseñó orgulloso. Yo nunca había leído un poema en inglés de Poe. Era muy especial, parecía que no estaba escrito con letras, estaba escrito con sonidos, el maldito Poe, había agarrado sonidos y los había puesto en una hoja. Los dos nos embelesamos oyendo el repicar de las campanas que sonaban, no dejaban de sonar, con un alegre timbre lleno de vida. Las campanas, suenan las campanas.  Mientras los niños juegan en el patio a pegarle patadas a un balón de plástico ponchado con la imagen de Tribilín. Es una mañana fresca con un cielo azul. El México se ve feliz y no puedo dejar de pensar que qué curado ¿no?, que &quot;¿Qué bueno no?&quot;.</p>
 <p class="dialog">-¿Deveras eso pasó?</p>
-<div class="media-slot">[ AUDIO · "THE BELLS" — EDGAR ALLAN POE (LECTURA) ]</div>`
+<<div class="media-slot" style="flex-direction:column;padding:0;">
+  <img src="media/img/IMG_9071.PNG" style="width:100%;max-height:220px;object-fit:cover;opacity:0.85;" alt="descripción">
+  <div style="display:flex;align-items:center;gap:12px;padding:10px;">
+    <audio controls src="media/audio/bells1.wav" style="flex:1;max-width:300px;"></audio>
+    <span style="font-family:'Share Tech Mono',monospace;font-size:9px;color:var(--ph-dim);letter-spacing:0.08em;">ARTISTA · AÑO</span>
+  </div>
+</div>
+<div class="verse" style="text-align:center;">
+<strong style="color:var(--ph-dim);font-family:'Share Tech Mono',monospace;font-size:11px;letter-spacing:0.15em;">THE BELLS — EDGAR ALLAN POE</strong><br><br>
+
+<strong>I.</strong><br>
+Hear the sledges with the bells—<br>
+Silver bells!<br>
+What a world of merriment their melody foretells!<br>
+How they tinkle, tinkle, tinkle,<br>
+In the icy air of night!<br>
+While the stars that oversprinkle<br>
+All the heavens, seem to twinkle<br>
+With a crystalline delight;<br>
+Keeping time, time, time,<br>
+In a sort of Runic rhyme,<br>
+To the tintinnabulation that so musically wells<br>
+From the bells, bells, bells, bells,<br>
+Bells, bells, bells—<br>
+From the jingling and the tinkling of the bells.<br><br>
+
+<strong>II.</strong><br>
+Hear the mellow wedding bells,<br>
+Golden bells!<br>
+What a world of happiness their harmony foretells!<br>
+Through the balmy air of night<br>
+How they ring out their delight!<br>
+From the molten-golden notes,<br>
+And all in tune,<br>
+What a liquid ditty floats<br>
+To the turtle-dove that listens, while she gloats<br>
+On the moon!<br>
+Oh, from out the sounding cells,<br>
+What a gush of euphony voluminously wells!<br>
+How it swells!<br>
+How it dwells<br>
+On the Future! how it tells<br>
+Of the rapture that impels<br>
+To the swinging and the ringing<br>
+Of the bells, bells, bells,<br>
+Of the bells, bells, bells, bells,<br>
+Bells, bells, bells—<br>
+To the rhyming and the chiming of the bells!<br><br>
+
+<strong>III.</strong><br>
+Hear the loud alarum bells—<br>
+Brazen bells!<br>
+What tale of terror, now, their turbulency tells!<br>
+In the startled ear of night<br>
+How they scream out their affright!<br>
+Too much horrified to speak,<br>
+They can only shriek, shriek,<br>
+Out of tune,<br>
+In a clamorous appealing to the mercy of the fire,<br>
+In a mad expostulation with the deaf and frantic fire,<br>
+Leaping higher, higher, higher,<br>
+With a desperate desire,<br>
+And a resolute endeavor<br>
+Now—now to sit or never,<br>
+By the side of the pale-faced moon.<br>
+Oh, the bells, bells, bells!<br>
+What a tale their terror tells<br>
+Of Despair!<br>
+How they clang, and clash, and roar!<br>
+What a horror they outpour<br>
+On the bosom of the palpitating air!<br>
+Yet the ear it fully knows,<br>
+By the twanging,<br>
+And the clanging,<br>
+How the danger ebbs and flows;<br>
+Yet the ear distinctly tells,<br>
+In the jangling,<br>
+And the wrangling,<br>
+How the danger sinks and swells,<br>
+By the sinking or the swelling in the anger of the bells—<br>
+Of the bells—<br>
+Of the bells, bells, bells, bells,<br>
+Bells, bells, bells—<br>
+In the clamor and the clangor of the bells!<br><br>
+
+<strong>IV.</strong><br>
+Hear the tolling of the bells—<br>
+Iron bells!<br>
+What a world of solemn thought their monody compels!<br>
+In the silence of the night,<br>
+How we shiver with affright<br>
+At the melancholy menace of their tone!<br>
+For every sound that floats<br>
+From the rust within their throats<br>
+Is a groan.<br>
+And the people—ah, the people—<br>
+They that dwell up in the steeple,<br>
+All alone,<br>
+And who tolling, tolling, tolling,<br>
+In that muffled monotone,<br>
+Feel a glory in so rolling<br>
+On the human heart a stone—<br>
+They are neither man nor woman—<br>
+They are neither brute nor human—<br>
+They are Ghouls:<br>
+And their king it is who tolls;<br>
+And he rolls, rolls, rolls,<br>
+Rolls<br>
+A pæan from the bells!<br>
+And his merry bosom swells<br>
+With the pæan of the bells!<br>
+And he dances, and he yells;<br>
+Keeping time, time, time,<br>
+In a sort of Runic rhyme,<br>
+To the pæan of the bells—<br>
+Of the bells:<br>
+Keeping time, time, time,<br>
+In a sort of Runic rhyme,<br>
+To the throbbing of the bells—<br>
+Of the bells, bells, bells—<br>
+To the sobbing of the bells;<br>
+Keeping time, time, time,<br>
+As he knells, knells, knells,<br>
+In a happy Runic rhyme,<br>
+To the rolling of the bells—<br>
+Of the bells, bells, bells—<br>
+To the tolling of the bells,<br>
+Of the bells, bells, bells, bells—<br>
+Bells, bells, bells—<br>
+To the moaning and the groaning of the bells.
+</div>
+`
   },
 
   'pipa': {
@@ -397,6 +550,7 @@ body: `<div class="media-slot">
     body: `<p>*Es como un animal de rapiña, rodea a un cadáver destazado, camina sigilante, sospechosamente, no es tímido sino precavido, agacha la cabeza, husmea, no quiere ser sorprendido por aquel que cree muerto.*</p>
 <p>&quot;Pero deveras no tienes ninguna consideración, tú ya ni la amuelas, aquí me tienes esperándote desde las doce y no te apareces; chingado, aunque sea hubieras hablado por teléfono, deveras ya ni la haces... ¿Con quién andabas?&quot; (Bad company )</p>
 <p>La poesía surrealista es puro cuento, es un modelo para armar, es más artificial que el plástico, tú junta incoherencias y ya tienes un poema, uacha:</p>
+
 <p>*&quot;**El pálido atisbo *</p>
 <p>*reaparece de nuevo, me aletarga*</p>
 <p>*abandona su estadía fantasmal para tornarse duro*</p>
@@ -411,7 +565,11 @@ body: `<div class="media-slot">
 <p>*Pero no desaparece, allí se establece, se integra*</p>
 <p>*en todos mis recuerdos*</p>
 <p>*Es el ligero atisbo nebuloso**&quot;**.*</p>
-<p>Recitó las incoherencias de corrido con un ritmo adecuado sonaba bien, las palabras encajaban perfectamente a mi entender, era la confirmación de lo mismo que negaba, una poesía automática, plenamente automática. Y así se lo dije.</p>`
+<p>Recitó las incoherencias de corrido con un ritmo adecuado sonaba bien, las palabras encajaban perfectamente a mi entender, era la confirmación de lo mismo que negaba, una poesía automática, plenamente automática. Y así se lo dije.</p>
+<div class="media-slot">
+  <audio controls src="media/audio/atisbo.mp3" style="width:60%;max-width:320px;"></audio>
+  <span style="font-family:'Share Tech Mono',monospace;font-size:10px;color:var(--ph-dim);margin-left:12px;letter-spacing:0.08em;">improv · ATISBO · now</span>
+</div>`
   },
 
   'paseo': {
@@ -466,109 +624,13 @@ body: `<div class="media-slot">
 <p>El hallazgo me ruborizó ya que pensé que era realmente &quot;buena onda&quot; encontrar este escrito después de tantos años de tenerlo metido (ay esquiusmi) en la funda de un disco. Seguramente El Mex debio haber escrito esas líneas hace al menos unos doce años. Pensé &quot;orale que curado&quot;, después dejé los papeles sobre el estéreo, y bajé a la cocina a prepararme una bebida.</p>
 <p>Abre el refrigerador, mete la cabeza y encuentra al fondo un botella de Coca Cola, saca la cabeza y mete la mano derecha, hasta el fondo empuña la Coca. La mano izquierda toma un vaso de vidrio bastante grande, del tamaño de un bote de aceite Mobil mexicano, mientras la mano derecha sirve hielo a discreción. ojos y mano en coordinación vigilan y empinan la botella de soda, transladando al recipiente el líquido sepia oscuro y burbujeante, la mano ladea delicadamente al de cristal para recibir la bebida buscando la menor formación posible de espuma. El gas juguetea alegre en el vaso levantando pequeñas &quot;chispas de sabor&quot; y colocando bolitas alrededor de los hielos. Alberto corre escaleras arriba.</p>
 <p>Bien armado con mi soda, me preparé a leer el texto. Primero cambié la música, se me hizo lógico poner la Novena que era en donde venía el escrito. Me senté en mi silla playera y zas, mientras se escuchaban las dos primeras notas sostenidas del primer movimiento creciendo en volumen e intensidad yo me sumergí en el pensamiento mexiquiano.</p>
-<p>## &quot;Hey güey&quot;</p>
-<p>Sólo lo vi unos segundos, pero su imagen se me quedó en la memoria. Me lo encontré en Mesa de Otay por la carretera al aeropuerto del lado de los campos de béisbol, yo iba en mi carro y el venía caminando por el camellón. Nos cruzamos.</p>
-<p>Era un hombre como de treinta años, Traía un pantalón lleno de tierra que parecía verde, una camisa gris muy sucia completamente desabotonada, sin zapatos. Era delgado y más bien alto, con barba crecida, Caminaba con zancadas regulares ni rápidas ni lentas mirando hacia el frente todo su pecho, los brazos y la cara estaban negros como de tizne. No tierra, sino polvo completamente negro, se veía muy sucio, el pelo negro duro de tierra mezclada con sudor y ceniza.  Sus ojos sin brillo, fijos en el horizonte como viendo específicamente algo a lo lejos. En su cara sucia bajo las pestañas como de telaraña no se veía preocupación o ansiedad. No desviaba la vista clavada en el horizonte. Fue todo lo que vi.</p>
-<p>Por su edad  y a pesar de sus suciedad yo no creo que haya vivido mucho tiempo en ese estado, algo le ha ocurrido hace poco tiempo. Tiene un problema mental seguramente, pero algo en los últimos tiempos le  ha acelerado su decaimiento, tal vez acaba de perder a su madre que lo cuidaba, y ahora esta abandonado a su suerte.</p>
-<p>Si alguna vez fue cuerdo y yo creo que si, digamos a los veinte años todavía era cuerdo, debe haber terminado su secundaria y estudió una carrera corta, contador privado o técnico programador. Me imagino que siempre había tenido detalles  que denotaban algún problema sicológico. Se quedaba largo tiempo viendo al vacío, ensimismado, dormía demasiado, se enojaba con facilidad etc.</p>
-<p>un día le sucedió algo que nadie supo, cruzó la delicada línea a la locura, su madre se hizo cargo de él. Ya no hablaba, le gustaba salir a caminar, dar vueltas a la cuadra. Siempre andaba limpio y rasurado por los cuidados de su madre, pero al morir ella nadie se hizo cargo.</p>
-<p>El día que lo vi había dormido en un basurero recién quemado, por eso andaba todo lleno de cenizas.</p>
-<p>1</p>
-<p>La lluvia decide marcharse</p>
-<p>se va caminando tranquila por el camino que lleva al mar.</p>
-<p>El muro, el tronco del pirul y mis ojos</p>
-<p>han oscurecido sus colores bajo la humedad.</p>
-<p>¿A donde va la lluvia que más la quieran?</p>
-<p>Recostado sobre el muro te veo pasar.</p>
-<p>2</p>
-<p>Cesa de llover en el momento preciso,</p>
-<p>el silencio se hace presente.</p>
-<p>Los murmullos rítmicos se ocultan en el olvido</p>
-<p>ni mis oídos, ni la yerba ni las hojas de los pirules</p>
-<p>sienten las opresiones del ruido.</p>
-<p>Dormitando en el pasto no te escucho.</p>
-<p>3</p>
-<p>Un instante percibí bajo su manto</p>
-<p>la agradable comodidad de su abrazo</p>
-<p>sólo fue el segundo en que ya no estaba allí</p>
-<p>4</p>
-<p>La noche extraña recibe golpes continuos</p>
-<p>duras, potentes, las gotas se hunden en la oscuridad</p>
-<p>el agua transparente a veces es hielo</p>
-<p>allí donde existe la mezcla perfecta</p>
-<p>donde el hidrógeno se mezcla con el oxígeno</p>
-<p>siempre dos pegados a uno</p>
-<p>dos pegados a uno forman estructuras simples</p>
-<p>se pegan, se juntan creando una ola flotante</p>
-<p>pequeñas descargas eléctricas llaman la atención</p>
-<p>luz y sonido mezclados en la forma irregular</p>
-<p>un grito en la noche me despierta</p>
-<p>viajo apretado por una línea de metal</p>
-<p>luego se convierte en un relámpago</p>
-<p>luego en luz que corre con la velocidad de ella misma</p>
-<p>es un fino laser</p>
-<p>The lady refuses to go</p>
-<p>no lo quiere abandonar</p>
-<p>she&#x27;s brutally murdered</p>
-<p>... during the resesion.</p>
-<p>The only thing left was the yellow and black purse</p>
-<p>Two italians lead the taxi to the grocery store</p>
-<p>The lady who refused to go, stay</p>
-<p>Nobody knew about the rain coat</p>
-<p>just the guy outside the drugstore</p>
-<p>he remember the time when...</p>
-<p>Azul es azul y blanca es la camiseta</p>
-<p>Twenty years of sadness</p>
-<p>¿Hay algo que recoger del río?</p>
-<p>Do you? I Will, stay home!</p>
-<p>Observa la lluvia refugiado bajo los árboles</p>
-<p>During the Korea war</p>
-<p>eyes where cheap and carrots very expensive.</p>
-<p>Escritorios apilados</p>
-<p>Try the M and M&#x27;s</p>
-<p>taste the chocolate between the teeth</p>
-<p>your brown tongue skips the bath</p>
-<p>Between you and me, Disneyland is a fake</p>
-<p>&quot;Flick in the wrist and then a kick in the head</p>
-<p>he&#x27;s taking an arm... all this things, honey.</p>
-<p>Toc, toc, toc. Who is it? The door of Mary.</p>
-<p>Ten things that you will take to solitude island.</p>
-<p>xx</p>
-<p>Cierro mis ojos cansados de mirar</p>
-<p>cierro mis oidos cansados de escuchar</p>
-<p>cierro mi nariz cansada de oler</p>
-<p>cierro mi boca cansada de hablar</p>
-<p>cierro mis hombros cansados de encogerse</p>
-<p>cierro mi piel cansada de sentir</p>
-<p>cierro mis pulmones cansados de respirar</p>
-<p>cierro mis brazos cansados de abrazar</p>
-<p>cierro mis labios cansados de sonreir</p>
-<p>cierro mis manos cansadas de empuñar</p>
-<p>cierro mi sexo cansado de hacer el amor</p>
-<p>cierro mis piernas cansadas de caminar</p>
-<p>cierro mis dedos cansados de señalar</p>
-<p>cierro mi cabeza cansada de pensar</p>
-<p>cierro mi frente cansada de estar orgullosa</p>
-<p>cierro mi cuello cansado de no ser ahorcado</p>
-<p>cierro mi corazón cansado de romperse</p>
-<p>cuelgo un letrero de: cerrado, sali a comer</p>
-<p>y me voy volando.</p>
-<p>xxx</p>
-<p>Los sonidos ausentes son los más recordados</p>
-<p>música unida a imágenes y acontecimientos.</p>
-<p>Cuando los tengo cerca al alcance de la mano</p>
-<p>son mi seguro contra añoranzas, aunque no los escuche.</p>
-<p>xxxx</p>
-<p>Antes de que la noche llegue</p>
-<p>quiero encontar los murmullos que brotan del río</p>
-<p>antes de que la noche llegue</p>
-<p>aquí faltan hojas porque como que se salta y hasta estan escritas con otro tamaño de letra, se me hace como que lo escribió tiempo despues.</p>
-<p>Es abril, apenas empieza el calor y yo ya no me aguanto. Todo el día sudando.</p>
-<p>Hoy fuí convencido de la <a class="hl" onclick="openModal('ap-anyway')">nueva filosofía</a> AmyWay  , quedé tan impactado que ahora todo es tan claro que me dan ganas de agarrar cura. Estos batos me concretizaron tanto mi vida que para qué existió Aristóteles,</p>
-<p>Cuando esté viejo, me la voy a pasar sentado en el porche viendo caer la lluvia, cuando no llueva, voy a ver pasar a la gente y los voy a saludar. Voy a tener a mi lado un San Bernardo que me va a estar viendo con cara de menso. En la tardecita me voy a estirar hasta que me truenen los huesos.</p>
-<p>Cuando llego a trabajar la gente esta bien aburrida, nadie quiere tomar la siguiente orden, pero a mi se me hace curado, agarrar la orden ver las medidas de la ventana, ir a la bodega y empezar a sacar el material mientras me empiezo a imaginar ¿Cómo será el cliente? ¿gringo o mexicano?</p>
-<p>Cuando estaba en la escuela, una vez escuche una conversación muy extraña, escondido bajo el piso, escuche al conserje molestar a una estudiante, le decía que ya sabía todo, que la había visto, que la iba acusar al director, que le iban a hablar a sus papás, que de esta no salía limpia. La chica era valiente le contestaba fuerte, no se asustaba, le decía que no fuera mentiroso que no había visto nada, alegaban fuerte, despues el conserje hablaba suave, le decia que no se preocupara que nomas la estaba asustando, que nadie iba a saber, que no era un soplón, la muchacha se reía le decía que ya sabía, el conserje se acercaba y la muchacha no se movía. Cuando el conserje decía, te voy a enseñar un secreto y la chica se interesaba, ¿que es? Ya se me olvido que pasó. Nomás puedo decir su señoría que dijo, te voy a decir un secreto, voy a quemar la escuela. A los días se quemó. ¿Qué curioso verdad?.</p>
-<div class="media-slot">[ AUDIO · 9ª SINFONÍA — BEETHOVEN · PRIMER MOVIMIENTO ]</div>`
+<div class="media-slot" style="flex-direction:column;padding:0;">
+  <iframe width="100%" height="300" 
+    src="https://www.youtube.com/szmXdEgk0-s" 
+    frameborder="0" allowfullscreen style="display:block;"></iframe>
+  <span style="font-family:'Share Tech Mono',monospace;font-size:9px;color:var(--ph-dim);padding:8px;letter-spacing:0.1em;">ASI FUNCIONABA EL CD ROM BEETHOVEN · 1992</span>
+</div>
+>`
   },
 
  'heygüey': {
@@ -726,15 +788,19 @@ Estos batos me concretizaron tanto mi vida que para qué existió Aristóteles,
 <p class="dialog">- Ya hable con el bato, si quieres ahorita vamos por las gallinas.</p>
 <p class="dialog">- Vamos pues que tengo otras cosas que hacer.</p>
 <p class="dialog">- Esperate dejame darles de comer a los pollos.</p>
+<div class="media-slot" style="flex-direction:column;padding:0;">
+  <img src="media/img/IMG_9077.PNG" style="width:100%;max-height:320px;object-fit:cover;opacity:0.85;" alt="descripción">
+  <span style="font-family:'Share Tech Mono',monospace;font-size:9px;color:var(--ph-dim);padding:8px;letter-spacing:0.1em;">UN GALLO “EL MEXICANO”VS “EL TIJUANO”</span>
+</div>
 <p>El Nava se exaspera, ve las calmas de su hermano y no haya como hacerle entender que no quiere de ninguna manera sentarse en un balde a verlo acarrear un costal , sacar puños dequien sabe que semillas y ponerlos en diversos depósitos, no quiere verlo lavar recipientes y echar una especie de avena para las gallinas, no quiere escuchar los mimos, cada uno diferente , que tiene para cada uno de los treinta y tantos animales que tiene su hermano en las jaulas.</p>
 <p>Sentados en el bar los amigos comentan el Tour de Raul, Alberto y el Nava, hasta verlos pelear su gallo &quot;El México&quot; con el de Don Pachurris, &quot;El México&quot; se comportó bravo, desde un inicio el contrario le cortó un ala y así con el ala caída, el cortó a su vez en el cogote, la lucha duró más de 15 minutos, los dos gallos sólo eran sostenidos por su soltador y por su orgullo, Raul daba respiración artificial a su gallo entre cada interrupción, a las 5 de la tarde &quot;El México&quot; hundió el pico en la arena, el juez dió el gane al gallo del Pachurris y Alberto, El Nava y en especial el Raul se retiraron tristes de la arena. El Raul había perdido, como todos, una feria pero lo más gacho, perdió a un buen gallo.</p>
-<div class="media-slot">[ IMAGEN · PALENQUE, TIJUANA, B.C. ]</div>`
+>`
   },
 
   'gooddie': {
     title: '«Only the good die young»',
     badge: 'CAPÍTULO',
-    body: `<p>Un juego era el de qué cosa hay en común, por ejemplo un listado de personajes: Bruce Lee, Jimmy Hendrix, Janis Joplin y Jim Morrison. Si era obvio, podías contestar agregando un nombre a la lista por ejemplo: Jesucristo. Por ejemplo otro listado: Ezra Pound, Nieztche, Artaud y Van Gogh. Por ejemplo: Borges, El Greco y El Capitán Garfio: personas con problemas en la vista. Por ejemplo: King Crimson, Atomic Rooster y The Nice, grupos que han tenido integrantes de Emerson, Lake &amp; Palmer. Por ejemplo nómbrame tres guitarristas zurdos, por ejemplo Jeferson Airplane, B52&#x27;s . El de Bruce Lee es personajes que han muerto con menos de treinta y cinco años. Otro juego: mientras  se le hacia el honor a una TKT, viendo al sol echarse un clavado en el pacífico, pasabamos estación por estación del radio haber quien identifica primero la rola, el artista es Credence ¿Pero el nombre de la canción?</p>
+    body: `<p>Un juego era el de qué cosa hay en común, por ejemplo un listado de personajes: Bruce Lee, Jimmy Hendrix, Janis Joplin y Jim Morrison. Si era obvio, podías contestar agregando un nombre a la lista por ejemplo: Jesucristo. Por ejemplo otro listado: Ezra Pound, Nieztche, Artaud y Van Gogh. Por ejemplo: Borges, El Greco y El Capitán Garfio: personas con problemas en la vista. Por ejemplo: King Crimson, Atomic Rooster y The Nice, grupos que han tenido integrantes de Emerson, Lake &amp; Palmer. Por ejemplo nómbrame tres guitarristas zurdos, por ejemplo Jeferson Airplane, B52&#x27;s . El de Bruce Lee es <a class="hl" onclick="openModal('ap-danos')">personajes que han muerto</a> con menos de treinta y cinco años. Otro juego: mientras  se le hacia el honor a una TKT, viendo al sol echarse un clavado en el pacífico, pasabamos estación por estación del radio haber quien identifica primero la rola, el artista es Credence ¿Pero el nombre de la canción?</p>
 <p class="dialog">-El juego que parecía imposible hasta que llegó la multimedia, el internet y la realidad virtual fue el de <a class="hl" onclick="openModal('ap-abalorios')">abalorios</a> , yo sé, que alguien, en algún lugar es el *Ludi magister* y junto con el *musicae* nos están viendo, manipulando los hilos, mesclando, mixing, ese es el mix... Y sírvanme las otras porque me muero.</p>
 <p>Alberto más para allá que para acá no atina al botón del mouse, el Joe no hace mal tercio.</p>
 <div class="media-slot">[ AUDIO · "ONLY THE GOOD DIE YOUNG" — BILLY JOEL ]</div>`
@@ -743,7 +809,10 @@ Estos batos me concretizaron tanto mi vida que para qué existió Aristóteles,
   'watson': {
     title: 'Vayamos a los hechos, Dr. Watson\nY las muchachas morenitas cantaban...\n¿Por qué?',
     badge: 'CAPÍTULO — FINAL',
-    body: `<p>Años después de publicado aquel libro de &quot;La Balada del México&quot; fuí sorprendido yo mismo por la versión en CD-ROM, mi primo el Mario dedicado desde 1995 a la producción de esos armatostes había retomado la idea y llamándome por teléfono me había ofrecido una copia de prueba, el evento me pareció tan interesante que invite a José Luis para evaluarlo. Los trescientos ejemplares que alguna vez yo había editado dormían el sueño de los justos en anaqueles de la UABC, Cetys, Biblioteca Benito Juárez, Librería el Día, Atenea y bibliotecas personales de amigos y familiares, así que para mí era una agradable sorpresa que mi primo se hubiera tomado la molestia de producir el Compacto. Entre el Joe y yo decidimos que la mejor fecha para enfrentarnos a la obra era esperarnos un par de meses. Dar una visita al México el uno de enero del 2000. La cita sería en uno de esos cafés cantantes cibernéticos que ya por estas fechas pululaban en las grandes ciudades, no sería en Tijuana, sería, en México, un México de los recuerdos, un México para armar, El México que todos queremos, un México indestructible, El México en México. Para evitar fisgoneos prefechados, devolvimos el CD a mi primo y quedamos que él mismo nos lo entregara ese día para verlo juntos. Sólo marquen mi dirección y yo les envío el CD por la autopista cibernética donde quiera que estén. Orale pues, en eso quedamos primo.</p>
+    body: `<p><div class="media-slot" style="flex-direction:column;padding:0;">
+  <img src="media/img/IMG_9084.png" style="width:100%;max-height:320px;object-fit:cover;opacity:0.85;" alt="descripción">
+  <span style="font-family:'Share Tech Mono',monospace;font-size:9px;color:var(--ph-dim);padding:8px;letter-spacing:0.1em;"> WEB CHAT DE MARIO CON JOSÉ LUIS Y ALBERTO </span>
+</div> Años después de publicado aquel libro de &quot;La Balada del México&quot; fuí sorprendido yo mismo por la versión en CD-ROM, mi primo el Mario dedicado desde 1995 a la producción de esos armatostes había retomado la idea y llamándome por teléfono me había ofrecido una copia de prueba, el evento me pareció tan interesante que invite a José Luis para evaluarlo. Los trescientos ejemplares que alguna vez yo había editado dormían el sueño de los justos en anaqueles de la UABC, Cetys, Biblioteca Benito Juárez, Librería el Día, Atenea y bibliotecas personales de amigos y familiares, así que para mí era una agradable sorpresa que mi primo se hubiera tomado la molestia de producir el Compacto. Entre el Joe y yo decidimos que la mejor fecha para enfrentarnos a la obra era esperarnos un par de meses. Dar una visita al México el uno de enero del 2000. La cita sería en uno de esos cafés cantantes cibernéticos que ya por estas fechas pululaban en las grandes ciudades, no sería en Tijuana, sería, en México, un México de los recuerdos, un México para armar, El México que todos queremos, un México indestructible, El México en México. Para evitar fisgoneos prefechados, devolvimos el CD a mi primo y quedamos que él mismo nos lo entregara ese día para verlo juntos. Sólo marquen mi dirección y yo les envío el CD por la autopista cibernética donde quiera que estén. Orale pues, en eso quedamos primo.</p>
 <p>Después de dejar a los niños en la escuela y de casi media hora de transitar por la Cinco y Diez rumbo a mi trabajo, me *imagino* que llego al Mexicano. 	Me *apersono* frente al letrero que dice callado e impasible: &quot;INFORMACION&quot;, obviamente no hay nadie atendiendo. Las casetas de información, quejas y emergencias casi siempre están vacías, ¿Principio de Peter? ¿Principio de Murphy? ¿Principio del fin?, un mundo en donde las cosas no funcionan, lo opuesto a la calidad, como leí por allí: &quot;La perfecta creación de Dios, un mundo donde nada es perfecto&quot;. Cuando *imagino* que al fin aparece nuestro hombre, ante mis tartamudeos, alarga un papel. Llénelo, exclama imperativo, y yo aliviado pido una pluma.</p>
 <p>Aviso  clasificado. Sección personales.</p>
 <p>TEXTO (Máximo 40 palabras)	Se solicita cualquier información sobre EL MEXICO, se agradecerá cualquier dato  referente.  Para respuesta por favor con Mr.Kite</p>
@@ -917,5 +986,80 @@ Estos batos me concretizaron tanto mi vida que para qué existió Aristóteles,
 <p>Me recibe un simpático Beethoven fosforescente muy al estilo de los sesentas fumando una pipa. Escribo mi nombre y le digo que quiero jugar. Para mi primer pregunta puedo escoger de cuatro niveles que valen 2, 4, 6 y 10 pts. escojo el más sencillo, para ir midiendo, La pregunta es sobre la vida del autor, escojo la respuesta que dice que sí se hizo cargo de un sobrino y quien sabe que mas. Inmediatamente escucho unas altisonantes palabras en alemán y al mismo tiempo veo la traducción al inglés del mismísimo Beethoven burlándose de mi ignorancia y diciendo que lo intente otra vez, quedan tres opciones, escojo otra y otra vez recibo un regaño diferente, por fin le atino y me felicita, aparece otra vez el nivel de la pregunta, escojo una más difícil, aparecen cuatro botones, de cuatro pasajes de La Novena, me dice que las escuche, aplasto una por una y después me pregunta que cual de los pasajes escuchados es el inmediato posterior al inicio del primer movimiento. esta si la sé y escojo la respuesta correcta, ahí me la paso un buen rato, intentando contestar y dándome cuenta que me va a ser necesario leer con atención los comentarios sobre la obra y sus antecedentes. Ya que me canso, me regreso al menú principal y le digo que ya me voy, el programa me pregunta que si estoy seguro, la verdad no lo estoy tanto pero ya llevo mas de una hora y mi esposa me está llamando. camino a la cocina para cambiar un garrafón, voy pensando que debían haber opciones para ver las orquestaciones y quizá algunos videos de artistas ejecutando fragmentos, También pudiera haber habido la opción para separar y escuchar solito cada instrumento, tal vez así hubiera podido darse fin a la polémica  de ¿Qué instrumento era el que tocaba cierto pasaje del tercer movimiento si flauta o clarinete o fagot?, punto en el que siempre estuve en desacuerdo con El México que en paz descanse.</p>
 <p>[^1]: nota: Con el objeto de lograr el efecto de hipertexto, que en un libro impreso no es posible, utilizaremos la convención de título subrayado en colores invertidos cada vez que se quiera indicar que en el apéndice del libro existe una referencia cuya página estará indicada en el índice y que en la versión multimedia estaría a la mano de un simple click de computadora.</p>`
   },
-
+'ap-incendio': {
+  title: 'El incendio',
+  badge: 'FRAGMENTO HIPERTEXTUAL',
+  appendix: true,
+  body: `
+<p style="text-align:center;font-family:'Share Tech Mono',monospace;font-size:11px;color:var(--ph-dim);letter-spacing:0.15em;margin-bottom:20px;">Candy girl, 69<br>Ah, sugar / Oh, honey, honey<br>You are my candy girl<br>And you got me wanting you<br><em>The Archies.</em></p>
+<p>La secundaria es diferente, cambian mucho las cosas. Para empezar… ¡Tenemos clases los sábados! Me parece criminal pero ya me acostumbré.</p>
+<p>Voy y vengo en camión, mi mamá ya no me lleva. Al principio no quería, le daba miedo. Como cuando quise trabajar en el supermercado, me dijo que no. Me preguntó: ¿cuánto ganan de propinas?, le dije cuánto, no me dio permiso pero ahora cada domingo me da dos dólares.</p>
+<p>También algo cambió en mi cabeza. No puedo dejar de pensar en muchachas. En el autobús me la paso viendo las que suben, las que bajan, las que esperan taxi. A veces los vientos de Santa Ana les levantan los vestidos o se los pega al cuerpo. Esas imágenes quedan en mi memoria, luego aparecen en mis sueños.</p>
+<p>Otras novedades: tengo diferentes maestros por materia. En el aula nos sentamos todos revueltos, no hay filas de hombres y mujeres. A mi lado se sienta Mariana, cada rato se le cae el lápiz y yo lo recojo y se lo entrego, lo hace a propósito, me dice gracias y sonríe. Es bonita, morena, no me gustan sus dientes de enfrente los tiene separados.</p>
+<p>Cuando falta un maestro viene a cuidarnos una prefecta, bastante joven. Usa falda ajustada, lentes de carey y un chongo en el pelo, pronuncia seria: lean algo en silencio, se sienta en el escritorio del maestro. Todos los hombres quedamos zombies porque cruza las piernas que se convierten en imanes. Hay momentos en que todo desaparece, solo existen sus piernas y sus muslos interminables.</p>
+<p>Hoy hubo gran conmoción, gritos y alumnos pasaron corriendo. ¡Se está quemando la dirección! La prefecta se levantó, se asomó a la ventana, sin decir nada salió corriendo rumbo al incendio. El grupo no sabía qué hacer, salimos a ver qué pasaba.</p>
+<p>La dirección estaba cerca de las aulas. Salía mucho humo, maestros y alumnos ayudamos a sacar cajas archivadoras, máquinas de escribir y muebles. Al final quedaron puras cenizas. Dejamos lo poco rescatado en la banqueta, frente a la fuente del fauno. Las clases se suspendieron.</p>
+<p>Cuando me iba vi a un profesor que ayudaba a la prefecta a sacudirse la ceniza de la falda. Me imaginé que era yo. Fui a tomar mi camión.</p>
+<p>La parada está llena de alumnos, las muchachas de tercero visten de rojo y las de segundo azul. A mí me gustan las de segundo, les queda mejor la falda. Me siento en la banqueta con Iván. Él vive por los Álamos, yo espero el camión Ermita-Sur.</p>
+<p>Al poco rato Iván se sube al de Los Pinos, luego pasa mi camión pero no me subo. Espero que salgan los de la escuela técnica. Allí está una muchacha que me gusta. Todos los días nos vemos a distancia, yo sentado en la banqueta y ella recargada en la barda. Después de tantos días, cuando llega me sonríe.</p>
+<p>Las mujeres de la técnica usan falda gris y suéter azul marino, ella, como muchas, se faja la falda más alto con un cinto, la sube sobre la rodilla, así se ven mejor sus piernas. También espera Ermita-Sur, siempre le doy el paso para que suba primero, ella se pone roja porque sus amigas le dan carrilla.</p>
+<p>Nunca había hablado con ella hasta hoy. Subió sola, aproveché para sentarme con ella. Iván me aconsejó: <em>Prepara un buen tema de plática y ya la hiciste.</em></p>
+<p class="dialog">—Hola, ¿supiste que se quemó la dirección?</p>
+<p class="dialog">—Oh, sí, ¿qué pasó?</p>
+<p class="dialog">—Algunos ayudamos a sacar cajas de papeles…</p>
+<p>Platicamos más cosas, no recuerdo todo, ella se reía y en los saltos del camión pegaba su hombro al mío. También a veces me decía algo y ponía su mano en mi pierna. Cuando yo decía una broma ella me empujaba el pecho o me pegaba un coscorrón.</p>
+<p>Cuando se bajó me limpió una mancha de ceniza que tenía en mi nariz.</p>
+<p>Camino a mi casa. Recuerdo que no le pregunté su nombre. Me gustaría que se llamara Isabel. De todas maneras el lunes pregunto.</p>
+`
+},
+'ap-danos': {
+  title: 'Daños colaterales',
+  badge: 'FRAGMENTO HIPERTEXTUAL',
+  appendix: true,
+  body: `
+<p>Soñé que Iván estaba sentado en la banqueta esperando el camión, no era un niño, tenía veintidós años, me dijo, lo siento, me obligaron. Se levantó, iba descalzo, vestía un pantalón desgarrado, su espalda desnuda llena de orificios humeantes, chorreaba sangre. En la nuca tenía un hoyo del tamaño de un limón. Subió al autobús y desapareció en la bruma.</p>
+<p>Lucio despierta sobresaltado, hace días unos hombres entraron a su departamento, lo amordazaron y subieron en un avión. Lleva una semana encerrado sufriendo torturas y escuchando preguntas para las que no tiene respuesta.</p>
+<p>Escucha descorrer el cerrojo. Alguien le propina un puntapié en las costillas. Lo levanta del suelo.</p>
+<p class="dialog">—¡Carajo, hueles a orines!</p>
+<p class="dialog">—Jefe, ya déjenme en paz, no hice nada.</p>
+<p class="dialog">—No sea marica.</p>
+<p>Caminan por el pasillo. El custodio toca la puerta.</p>
+<p class="dialog">—Comandante, aquí le traigo cliente.</p>
+<p class="dialog">—Pásenle.</p>
+<p>Cuando salimos de la Prepa entramos a Pedagogía en Mexicali, Iván no duró, porque conoció a unos camaradas y decidió estudiar economía en la UNAM. Yo me burlaba de sus ideas comunistas y él me decía, pequeño burgués, estás enajenado con gringolandia y su pinche música decadente.</p>
+<p class="dialog">—A ver, ¿en qué nos quedamos? —dice el comandante, vestido con uniforme paramilitar. Examina una carpeta llena de papeles mecanografiados. Pasa los legajos con su dedo humedecido de saliva.</p>
+<p>Lucio solo viste calzoncillos, de un empujón el guardia lo sienta en una silla frente al escritorio.</p>
+<p class="dialog">—¿Ya te acordaste de los nombres?</p>
+<p class="dialog">—¿Cuáles, jefe?</p>
+<p class="dialog">—Los de tu célula, cabrón. A ti te mandaron a Tijuana a reclutar.</p>
+<p class="dialog">—No. Yo no hago eso. Yo allá vivo.</p>
+<p class="dialog">—No te hagas, desgraciado. ¿Te crees muy machito? Cabo, dígale a este pendejo quién sí es macho de verdad.</p>
+<p class="dialog">—Usted, comandante.</p>
+<p class="dialog">—¿Dígale quién le va a partir toda la madre si no me da nombres?</p>
+<p class="dialog">—Usted, comandante.</p>
+<p class="dialog">—Ya ves, pinche comunista. Suelta la lengua.</p>
+<p>Iván pertenecía a la Liga 23 de septiembre. Cuando fui a visitarlo al DF platicamos de eso. Me invitó a participar. <em>No podemos quedarnos de brazos cruzados, Lucio, el gobierno está podrido, los poderes económicos explotan al pueblo. Están matando obreros, estudiantes, campesinos...</em> Pues sí, pero hay vías democráticas, le dije, la cuestión es ganar espacios. <em>No hay tiempo, la lucha es ahora, únete, es un movimiento del pueblo, la dictadura del proletariado, camarada, es la única posibilidad.</em></p>
+<p>Me dio un impreso. <em>Léelo y luego hablamos.</em> Nos dimos un abrazo. Me regresé a Tijuana.</p>
+<p class="dialog">—Aquí dice que te encontraron un álbum con recortes de Tlatelolco y unos ejemplares de Madera. ¿No son tuyos?</p>
+<p class="dialog">—Son recortes de la secundaria, jefe. Puro hobby, tengo otros del viaje a la luna y del mundial de fut.</p>
+<p class="dialog">—¿Y los periódicos clandestinos? ¿También son hobby? ¿Me quieres ver la cara? Tú eres de esos terroristas irresponsables que atentan contra la patria.</p>
+<p class="dialog">—No jefe, esos me los mandó un amigo, yo no se los pedí. Ni los leo.</p>
+<p class="dialog">—¿Raúl, tu contacto? ¿El de esta foto? Aquí están los dos, güey, no me mientas.</p>
+<p class="dialog">—Somos amigos. Esa foto es cuando estábamos en la prepa. No se llama Raúl se llama Iván. Yo creo que se equivocaron, jefe.</p>
+<p class="dialog">—Yo nunca me equivoco muchachito. A ver Cabo, arremánguele un chingazo a este, para que haga memoria.</p>
+<p>El soldado se acerca empuñando una manopla y le da un golpe salvaje en el mentón. La sangre salpica la mesa.</p>
+<p class="dialog">—Raúl, Iván, o como se llame, te mandaba material subversivo, ustedes andan invadiendo propiedad privada. ¿En qué operativos has participado? Dame fechas, nombres.</p>
+<p>El muchacho no puede hablar, se atraganta, la sangre le brota a borbotones por la boca. Le rompieron la quijada.</p>
+<p class="dialog">—Ahora resulta que me saliste machito, ¿eres de los que no hablan? Porque ya valiste, tu amigo ya cantó.</p>
+<p class="dialog">—Mi comandante, —dice el cabo mientras examina con burla al prisionero desmadejado en la silla— a lo mejor el muchacho dice la verdad y ni sabe nada.</p>
+<p class="dialog">—No sabe, mis huevos.</p>
+<p>Lucio cae al piso desmayado.</p>
+<p class="dialog">—Serán peras o manzanas, este pendejo no da para más. Te lo chingaste feo, se te pasó la mano, idiota, le rompiste toda la jeta, así no me sirve.</p>
+<p class="dialog">—Perdón.</p>
+<p class="dialog">—Ya qué. Mira. Sácalo pa afuera, dale unos culatazos en la cara para que no esté tan reconocible, córtalo en pedazos y aviéntalo en una banqueta. Que la gente vea que somos eficientes extirpando de raíz estos anarquistas comunistoides de mierda.</p>
+<p class="dialog">—Sí mi comandante.</p>
+<p class="dialog">—Haces un reporte que conste que era sospechoso de participar en el secuestro del banquero ese de Guadalajara y que fue liberado por falta de pruebas. Que quede todo muy bien documentado.</p>
+<p class="dialog">—Sí mi comandante —el soldado se cuadra en saludo militar— y, usted disculpe, se me pasó la mano, es que ando estrenando manopla.</p>
+`
+},
 };
