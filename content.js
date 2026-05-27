@@ -159,7 +159,7 @@ body: `<div class="media-slot">
 <p class="dialog">- Experiencia... Pronuncia apreciativo, - Tan importante cuando no la tienes, tan inútil cuando ya tienes suficiente. Hace cuarenta años cuando íbamos a jugarles al otro barrio, ¿Puedes decirme qué era más importante que humillarlos, que ganarles o por lo menos descalabrar a alguien?</p>
 <p class="dialog">- ¿Qué es más importante ahorita, es lo que yo quiero saber?</p>
 <div class=”media-slot” style=”flex-direction:column;padding:0;”>
- <iframe width=”880” height=”280” src=”https://www.youtube.com/embed/8qrriKcwvlY” frameborder=”0” allowfullscreen style=”display:block;”></iframe>
+  <iframe width=”560” height=”315” src=”https://www.youtube.com/embed/8qrriKcwvlY?si=O2L6uqcvOKLlggG8” title=”YouTube video player” frameborder=”0” allow=”accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share” referrerpolicy=”strict-origin-when-cross-origin” allowfullscreen></iframe>
   <span style=”font-family:'Share Tech Mono',monospace;font-size:9px;color:var(--ph-dim);padding:8px;letter-spacing:0.1em;”>I have to weare shades TIMBUK 3 · 1974</span>
 </div>`
 
