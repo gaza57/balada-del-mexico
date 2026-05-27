@@ -158,65 +158,70 @@ body: `<div class="media-slot">
 <p>José Luis pensativo, se quita los lentes 3D. Bebe de su whisky saboreando el gusto metálico escocés revuelto con agua natural, sintiendo la caída libre del líquido a través del esófago, casi escuchando el &quot;splash&quot; al reunirse el trago con los otros anteriores que descansan en su panza antes de pasar al intestino con destino al mingitorio, no sin antes proveer las enzimas apropiadas que recuperadas por la sangre le permitan encontrar ese equilibrio impecable, entre la razón, la somnolencia, la claridad, la tranquilidad, la frescura, el olvido, la motivación y el bienestar.</p>
 <p class="dialog">- Experiencia... Pronuncia apreciativo, - Tan importante cuando no la tienes, tan inútil cuando ya tienes suficiente. Hace cuarenta años cuando íbamos a jugarles al otro barrio, ¿Puedes decirme qué era más importante que humillarlos, que ganarles o por lo menos descalabrar a alguien?</p>
 <p class="dialog">- ¿Qué es más importante ahorita, es lo que yo quiero saber?</p>
-<p>El juego era importante, cruzando el llano estaba La Durango, tierra legendaria a donde nadie se aventuraba a pesar de que podía llegarse sólo cruzando quinientos metros de yerba crecida. En el campo de la Durango, Los de Abajo tenían algo que probar, ganarles a aquellos que siempre habían jugado en equipos organizados, aquellos que jugaban con zapatos con tacos de cuero y los sábados iban a jugar al puente de la línea al Romero Manzo.</p>
+<div class=”media-slot” style=”flex-direction:column;padding:0;”>
+ <iframe width=”880” height=”280” src=”https://www.youtube.com/embed/8qrriKcwvlY” frameborder=”0” allowfullscreen style=”display:block;”></iframe>
+  <span style=”font-family:'Share Tech Mono',monospace;font-size:9px;color:var(--ph-dim);padding:8px;letter-spacing:0.1em;”>I have to weare shades TIMBUK 3 · 1974</span>
+</div>`
+
+   },
+
+  'el-juego': {
+    title: 'El Juego',
+    badge: 'CAPÍTULO',
+    body: `<p>El juego era importante, cruzando el llano estaba La Durango, tierra legendaria a donde nadie se aventuraba a pesar de que podía llegarse sólo cruzando quinientos metros de yerba crecida. En el campo de la Durango, Los de Abajo tenían algo que probar, ganarles a aquellos que siempre habían jugado en equipos organizados, aquellos que jugaban con zapatos con tacos de cuero y los sábados iban a jugar al puente de la línea al Romero Manzo.</p>
 <p>El domingo tempranito, aguantándose el frío mañanero en la mitad de la Colchonera se empezaron a juntar los de Abajo, El México sólo tuvo que levantarse de la cama, ponerse unos shorts, una camiseta sus zapatos de fut de tacos de plástico, entrar al baño mojarse la cara, pasar por la cocina agarrar un pan, abrir la puerta, cruzar la calle y encontrarse con los demás: El Neto, Gilberto, Perico, David, Mario y el Wichoni.</p>
-<p class="dialog">-Y el balón. pregunta sacudiéndose el agua helada que salpica a todos los presente.</p>
-<p class="dialog">-Orale güey estás salpicando todo. Grita instantáneamente el Neto.</p>
-<p class="dialog">-Los morros de la Electricistas quedaron en traer uno, le vamos a pasar chanza al Michel y al Gela, para completarnos.</p>
-<p class="dialog">-Están muy morros.</p>
-<p class="dialog">-Ni modo no tenemos gente. Vámonos yendo.</p>
+<p class=”dialog”>-Y el balón. pregunta sacudiéndose el agua helada que salpica a todos los presente.</p>
+<p class=”dialog”>-Orale güey estás salpicando todo. Grita instantáneamente el Neto.</p>
+<p class=”dialog”>-Los morros de la Electricistas quedaron en traer uno, le vamos a pasar chanza al Michel y al Gela, para completarnos.</p>
+<p class=”dialog”>-Están muy morros.</p>
+<p class=”dialog”>-Ni modo no tenemos gente. Vámonos yendo.</p>
 <p>El grupo empieza a caminar a la calle para doblar a la izquierda todos van serios, haciendo calistenia para entrar en calor, la yerba seca está húmeda, empiezan a cruzar el llano, a mitad del camino todos tienen los calcetines llenos de espinas. Mal augurio. Al otro lado, los de la Durango se divisan en el campo todos con camisetas de fut, de equipos de la primera división, de las chivas, del Oro, del Atlas. El México observa burlón hacia adelante, se desfaja su camiseta de los Rockets, el Perico también se desfaja su camiseta de beisbol blanca con mangas amarillas..</p>
-<p class="dialog">-Estos batos parecen que están en la peni, todos con camisetas a rayas, qué mamones. El México se empieza a reir escandalosamente. Los demás también sonríen. Cuando pisan tierra sin zacate, ya están en el campo de la Durango. El sol empieza a calentar.</p>
+<p class=”dialog”>-Estos batos parecen que están en la peni, todos con camisetas a rayas, qué mamones. El México se empieza a reir escandalosamente. Los demás también sonríen. Cuando pisan tierra sin zacate, ya están en el campo de la Durango. El sol empieza a calentar.</p>
 <p>_Qué onda. Pronuncia el México despectivo.</p>
-<p class="dialog">-Qué onda. El Chugo, pateando el balón.</p>
-<p class="dialog">-Nomas somos seis orita llegan otros dos.</p>
-<p class="dialog">-Empezamos seis contra seis.</p>
-<p class="dialog">- Mejor nos esperamos un rato. Cuando lleguen a cinco goles con cambio de portería.</p>
-<p class="dialog">-Sobres.</p>
+<p class=”dialog”>-Qué onda. El Chugo, pateando el balón.</p>
+<p class=”dialog”>-Nomas somos seis orita llegan otros dos.</p>
+<p class=”dialog”>-Empezamos seis contra seis.</p>
+<p class=”dialog”>- Mejor nos esperamos un rato. Cuando lleguen a cinco goles con cambio de portería.</p>
+<p class=”dialog”>-Sobres.</p>
 <p>El primer tiempo empezó con mucha seguridad por parte de los alacranes, atacaron duro, haciendo volar dos o tres veces al Perico, que aunque no es muy bueno para el Fut si es muy aferrado. A falta de arbitro hay mucho que alegar y los dos bandos lo hacen con ganas defendiendo sus puntos. Los refuerzos de la Electricistas resultaron adecuados, El Michel Y el Gela no se arredran y devuelven faul con faul. El Lechuga se cuela por tercera vez por el centro esta vez no estrella su tiro en la defensa abre al extremo donde como tromba entra su compañero. El primer gol marca el ritmo, sucesivamente la durango se pone 2-0, 3-1, 4-1, 4-2  y 5-2. el primer tiempo termina abajo los de abajo.</p>
-<p class="dialog">- Tenemos que atacar más, no se dejen, los traen todos escamados. dice el México, luego se inclina en medio de la bolita y empieza a trazar en la tierra con una varita. Complicadas jugadas señalando a cada quien lo que tiene que hacer. Todos asienten serios aunque en el fondo para todos está muy claro que lo que hay que hacer es muy sencillo, meterle ganas, y ganar o si no se puede,meterle ganas y faulear todo lo que se pueda.</p>
-<p class="dialog">- Oye pa&#x27;que hacemos tantas jugadas, nomás vamos y les rajamos en su madre y ya&#x27;stuvo, pinches güeyes son bien fauleros. La estrategia del Michel recibe aceptación del Perico y de Wichoni.</p>
-<p class="dialog">- Si es cierto, cada vez que ataquen nos le barremos en los tobillos. Dice el Wichoni.</p>
-<p class="dialog">- Si brincan los madreamos. Apoya el Perico.</p>
+<p class=”dialog”>- Tenemos que atacar más, no se dejen, los traen todos escamados. dice el México, luego se inclina en medio de la bolita y empieza a trazar en la tierra con una varita. Complicadas jugadas señalando a cada quien lo que tiene que hacer. Todos asienten serios aunque en el fondo para todos está muy claro que lo que hay que hacer es muy sencillo, meterle ganas, y ganar o si no se puede,meterle ganas y faulear todo lo que se pueda.</p>
+<p class=”dialog”>- Oye pa&#x27;que hacemos tantas jugadas, nomás vamos y les rajamos en su madre y ya&#x27;stuvo, pinches güeyes son bien fauleros. La estrategia del Michel recibe aceptación del Perico y de Wichoni.</p>
+<p class=”dialog”>- Si es cierto, cada vez que ataquen nos le barremos en los tobillos. Dice el Wichoni.</p>
+<p class=”dialog”>- Si brincan los madreamos. Apoya el Perico.</p>
 <p>El México se queda pensativo, sopesando la estrategia, comparándola con la suya, de más técnica, de más deportivismo, de más en la línea de Pierre de Coubertain, evalúa pensativo y por fin asiente:</p>
-<p class="dialog">- Pos sí, ¿Mejor nos los chingamos no?</p>
+<p class=”dialog”>- Pos sí, ¿Mejor nos los chingamos no?</p>
 <p>Dicho y hecho, el juego recrudece se vuelve ciento por ciento rudo termina 10 a 5 el último gol fue de cabeza, pero el jugador de la Durango se llevó un tremendo patadón del Perico en la cara que le sacó el mole, Los de Abajo empiezan a correr, cruzan el llano en tiempo récord bajo una lluvia de piedras. se concentran en la Colchonera, planeando el contrataque que saben nunca se dará. Comentan el partido en el fondo reconocen la superioridad, pero nadie lo verbaliza, una vez agotado el tema el grupo se separa todos se van a su casa , el Michel al pasar por &quot;la pista”&quot; voltea por última vez hacia el llano y dice muy seguro:</p>
-<p class="dialog">- Si les podemos ganar. Pinches jotos montoneros.</p>
+<p class=”dialog”>- Si les podemos ganar. Pinches jotos montoneros.</p>
 <p>Alberto observa sobre el hombro una pareja de ciberpunks que en su SevenSeal no dejan de observar videos tridimensionales del MTV3D, con sus cascos de realidad virtual. navegan en un espacio de sonidos no aptos para cardíacos, tomados de la mano. La imagen le resulta tierna.</p>
-<p class="dialog">- Tienes razón Joe, como dice la canción *to much experiencie will kill you. *</p>
-<p class="dialog">- Es *to much love...*</p>
-<p class="dialog">- Es lo mismo.</p>
+<p class=”dialog”>- Tienes razón Joe, como dice la canción *to much experiencie will kill you. *</p>
+<p class=”dialog”>- Es *to much love...*</p>
+<p class=”dialog”>- Es lo mismo.</p>
 <p>Al escoger *la experiencia*, Lou Reed los regresa al cuadro del Réquiem pero un requiem mucho mas barroco, principia con música de Bach y no admite interrupciones hasta que el bato vuelve a encestar sin tocar aro. Esta vez las imágenes son muy cinematográficas. Al final el Joe y el Beto carraspean con los ojos llorosos. Observan la reanudación con una representación de dibujos animados, muy realista, al estilo japonés:</p>
 <p>El México se sienta tranquilamente en una piedra mientras los otros, también buscan un lugar en donde colocarse, van quedando en semicírculo abiertos hacia el fondo del campo, el sol empieza a ocultarse, se esconde tras las nubes que flotan sobre el horizonte. El cielo se muestra monumental; grandes bocanadas de espuma muestran iridicentes sus algodones pintados de gris, violeta, naranja, amarillo y rojo, entre sus caprichos también se escapan bastones dorados y plateados que se proyectan ya sea hacia otros pliegues de las nubes o simplemente se desvanecen en la inmensidad. El clima es helado, con un aire completamente transparente. Sentados cada quien en su piedra están El Neto, Gilberto, El Perico y El México. La bateria pesada, los grandes. El México se para sobre la piedra, con las manos en los bolsillos, diciendo solemnemente: Estamos aquí reunidos, en un momento crucial de la patria, grita patria y se oye el eco; queremos saber qué hacemos en este pinche día tan serio, tan pasivo y tan aplatanado. He dicho. El ademán, la finura y el colofón, haciendo una reverencia &quot;a la zappa&quot; resultan graciosos, todos se ríen exageradamente, Gilberto aprieta el estómago y se revuelca en la tierra. No aguanta la cura. ¿Qué onda zurdo, qué te picó? dice el Perico. Quién te picó dice el México. Sácalo compa dice el Neto. Gilberto se levanta serio: &quot;A ver, quién le pega a aquel poste. Señala un poste telefónico nuevo, chaparrito, retirado del grupo como unos cincuenta metros. Toma una roca y lanzándola con una fuerza tremenda la hace volar en línea rectísima estrellándola escandalosamente en el poste, a casi tres metros del suelo. El sonido de la piedra al chocar con el madero produce un trueno que se repite claro e incesante en la amplio paisaje. Una vez que el eco ha visitado todas las esquinas y recovecos del paisaje; todos por turno intentan repetir la hazaña, nadie más le atina. Gilberto vuelve a tomar impulso y nuevamente estrella una piedronona en el poste. -Tienes una puntería recabrona, deberías ser pitcher, dice el Perico, aunque nomás tiras a lo buey. Luego agrega, vamos a mi casa a oir un disco.</p>
 <p>El Joe y Albert empiezan a escuchar una canción cuyo título de principio no identifican, por las guitarras se dan cuenta de que es Blue Oister Cult. en la pantalla se ve un video sepia.</p>
 <p>Secuencia 1. atardeciendo. un automóvil chevi 64 blanco, circula lentamente por una calle angosta de fraccionamiento se detiene brevemente frente a una casa azul que se repite a lo largo de la calle pero en colores diferentes, y esta del lado derecho del chofer, en la banqueta esta estacionado un flamante auto firebird 68, el Chevi sigue adelante y da vuelta a la cuadra.</p>
 <p>Secuencia 2. Interior del chevi. manejando el Perico. Sin dejar de circular. en la última frase del diálogo el Perico detendrá su auto en la misma casa. a su lado el Neto. Atras del chofer el México y en la ventana de la derecha Gilberto.</p>
-<p class="dialog">- No se ve nadie, pero sí están adentro. Voy a dar la vuelta y de volada.</p>
-<p class="dialog">-No mas te detienes y nos bajamos. (dice Neto con la brocha en la mano)</p>
-<p class="dialog">-Insisto en que es una idiotez hacer esto, pero pos ya que insisten venga paca la cubeta, abreme campo Gilberto.</p>
+<p class=”dialog”>- No se ve nadie, pero sí están adentro. Voy a dar la vuelta y de volada.</p>
+<p class=”dialog”>-No mas te detienes y nos bajamos. (dice Neto con la brocha en la mano)</p>
+<p class=”dialog”>-Insisto en que es una idiotez hacer esto, pero pos ya que insisten venga paca la cubeta, abreme campo Gilberto.</p>
 <p>Secuencia tres. El auto se detiene, se abren las puertas del lado derecho bajan tranquilamente los tres muchachos, uno ve sobre el auto hacia la puerta de la casa, los otros agachados, uno sujeta la cubeta y el otro hundiendo generosamente la brocha en la cubeta, traslada la pintura al auto estacionado, pinta la ventana del chofer, la puerta, con grandes brochazos en forma de cruz, sin apurarse, duran haciendolo como unos treinta segundos , suben al auto que prosigue la marcha a una velocidad regular. la escena se queda vacia con el auto en longshot mostrando la pintura escurriendo.</p>
 <p>*Mientras antes* en la casa del Perico.</p>
-<p class="dialog">-Ya apaga el tocadiscos, entonces qué, ¿Vamos o no? dice el Neto.</p>
-<p class="dialog">-Yo digo que si, esos morros nos la deben en especial ese &quot;Loco&quot;. Dice el Perico mientras se levanta y apaga el tocadiscos sacando cuidadosamente el disco y colocandolo en su funda.</p>
+<p class=”dialog”>-Ya apaga el tocadiscos, entonces qué, ¿Vamos o no? dice el Neto.</p>
+<p class=”dialog”>-Yo digo que si, esos morros nos la deben en especial ese &quot;Loco&quot;. Dice el Perico mientras se levanta y apaga el tocadiscos sacando cuidadosamente el disco y colocandolo en su funda.</p>
 <p>Todos están serios, pensativos y un  poco distraidos. Gilberto empieza a reirse.</p>
-<p class="dialog">- Cual es tu cura. pregunta Neto molesto.</p>
-<p class="dialog">- Que les parece esto. se acerca a los demás y empiezan a cuchichear.</p>
+<p class=”dialog”>- Cual es tu cura. pregunta Neto molesto.</p>
+<p class=”dialog”>- Que les parece esto. se acerca a los demás y empiezan a cuchichear.</p>
 <p>La voz del México sobresale de los demás, resume: Como son gachos, me cai que no se miden. Todos asienten sonriendo. Salen de la casa y se suben al chevi blanco del Perico, Gilberto lleva una cubeta en la mano.</p>
 <p>La pantalla de 27 pulgadas de la computadora Seven Seal, explota en efectos psicodélicos mientras se escucha la melodía sintetizada de &quot;Ligth my Fire&quot;. José aprovecha para llamar a la mesera por más pistos. Alberto inteligentemente cambia su bebida por otro Chivo.</p>
-<p class="dialog">- No deja de sorprenderme esta tecnología moderna, viajar al pasado acompañados por un Lou Reed cibernético se me hace de lo mas alucinado. Vieras cuánto tiempo tenía de no escuchar In a ga da da vida, me a traido recuerdos agradables. ¿Dónde consiguió tu primo las fotos del México?</p>
-<p class="dialog">- Quien sabe. última hora aquí mismo en el internet.</p>
-<p class="dialog">- ¿Por qué no te juntabas con él?</p>
-<p class="dialog">- El era más grande, ponle dos o tres años pero a esa edad eso cuenta mucho además yo siempre he sido medio ingenuo, medio menso para que me entiendas.</p>
-<p class="dialog">- ¿Cómo reaccionó el &quot;Loco&quot;?</p>
+<p class=”dialog”>- No deja de sorprenderme esta tecnología moderna, viajar al pasado acompañados por un Lou Reed cibernético se me hace de lo mas alucinado. Vieras cuánto tiempo tenía de no escuchar In a ga da da vida, me a traido recuerdos agradables. ¿Dónde consiguió tu primo las fotos del México?</p>
+<p class=”dialog”>- Quien sabe. última hora aquí mismo en el internet.</p>
+<p class=”dialog”>- ¿Por qué no te juntabas con él?</p>
+<p class=”dialog”>- El era más grande, ponle dos o tres años pero a esa edad eso cuenta mucho además yo siempre he sido medio ingenuo, medio menso para que me entiendas.</p>
+<p class=”dialog”>- ¿Cómo reaccionó el &quot;Loco&quot;?</p>
 <p>Alberto se encoge de hombros. - Se puso a limpiar su carro. Reflexionando agrega: Pero óyeme quién te dijo que todo eso en verdad pasó, que ¿no leiste el Juego de los Abalorios?</p>
 <p>Lou Reed vestido de disfraz de pájaro que se puso Paul Simon que asemejaba al de Plaza Sésamo en el programa de Saturday Nigth Live, les grita desde una puerta flotando en el espacio: Step this side to the Magical Mistery Tour.</p>
-<p>En la sala virtual principal del home page, enfocamos el siguiente cuadro, es una pintura estilizada de dos hombres alrededor de un círculo. El Joe apachurra el ratón que hace Click.</p>
-<div class="media-slot" style="flex-direction:column;padding:0;">
- <iframe width="880" height="280" src="https://www.youtube.com/embed/8qrriKcwvlY" frameborder="0" allowfullscreen style="display:block;"></iframe>
-  <span style="font-family:'Share Tech Mono',monospace;font-size:9px;color:var(--ph-dim);padding:8px;letter-spacing:0.1em;">I have to weare shades TIMBUK 3 · 1974</span>
-</div>`
- 
-   },
+<p>En la sala virtual principal del home page, enfocamos el siguiente cuadro, es una pintura estilizada de dos hombres alrededor de un círculo. El Joe apachurra el ratón que hace Click.</p>`
+  },
 
   'dos-hermanos': {
     title: 'Dos hermanos',

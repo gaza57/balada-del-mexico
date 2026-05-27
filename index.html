@@ -252,7 +252,8 @@ const NODES=[
   {id:'marco',       label:'http://www.2000.mx',                 type:'chapter', x:14,y:18,connect:['midifile']},
   {id:'midifile',    label:'Los circuitos\nestán muertos',    type:'chapter', x:28,y:8, connect:['requiem']},
   {id:'requiem',     label:'Réquiem',                         type:'chapter', x:42,y:20,connect:['futuro','dos-hermanos']},
-  {id:'futuro',      label:'El futuro luce\ntan brillante…',  type:'chapter', x:56,y:10,connect:['dos-hermanos']},
+  {id:'futuro',      label:'El futuro luce\ntan brillante…',  type:'chapter', x:56,y:10,connect:['el-juego']},
+  {id:'el-juego',    label:'El Juego',                        type:'chapter', x:62,y:16,connect:['dos-hermanos']},
   {id:'dos-hermanos',label:'Dos hermanos',                    type:'chapter', x:68,y:22,connect:['tenochtitlan']},
   {id:'tenochtitlan',label:'Tenochtitlán',                    type:'chapter', x:80,y:12,connect:['caballo-loco']},
   {id:'caballo-loco',label:'Noche de brujas\nEl Caballo Loco',type:'chapter', x:90,y:26,connect:['seccion-mx']},
@@ -287,7 +288,7 @@ const NODES=[
   {id:'ap-abalorios',label:'El Juego\nde abalorios',type:'appendix',x:50,y:98},
 ];
 
-const ORDER=['marco','midifile','requiem','futuro','dos-hermanos','tenochtitlan',
+const ORDER=['marco','midifile','requiem','futuro','el-juego','dos-hermanos','tenochtitlan',
   'caballo-loco','seccion-mx','viaje','stones','cuadros','seccion-tj',
   'revolucion','mikes','cuadros2','reprise','campanas','pipa',
   'diario','paseo','escenas','pitbull','heygüey','gallero','gooddie','watson'];
